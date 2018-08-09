@@ -14,6 +14,14 @@ cc.UI_ALIGNMENT_VERTICAL_LEFT = 3;
 cc.UI_ALIGNMENT_VERTICAL_CENTER = 4;
 cc.UI_ALIGNMENT_VERTICAL_RIGHT = 5;
 
+//全局配色 cs means custom
+var cs = cs || {};
+cs.GRAY = cc.color(143, 162, 176);
+cs.RED = cc.color(217, 73, 47);
+cs.GREEN = cc.color(35, 141, 90);
+cs.YELLOW = cc.color(252, 187, 12);
+cs.BLACK = cc.color(21, 25, 26);
+
 /**
  * 根据panel创建scrollView
  * @param {* | cc.Node |ccui.Layout} contentPanel
@@ -55,7 +63,11 @@ UICommon.createScrollViewWithContentPanel = function(contentPanel, size, dir) {
 
     var height = Math.max(contentPanel.getBoundingBox().height, scrollView.getContentSize().height);
 
-    contentPanel.setPos(cc.p(0, height), cc.p(0, 1.0));
+    if(dir == ccui.ScrollView.DIR_VERTICAL){
+        contentPanel.setPos(cc.p(0, height), ANCHOR_LEFT_TOP);
+    }else{
+        contentPanel.setPos(cc.p(0, height * 0.5), ANCHOR_LEFT);
+    }
 
     return scrollView;
 };
@@ -113,10 +125,11 @@ UICommon._createPanelAlignWidgetsHorizontallyWithPadding = function(padding, ali
             continue;
 
         //  并非 纹理 getContentSize();
-        width += child.getBoundarySize().width;
+        var childBoundingBox = child.getBoundingBox();
+        width += childBoundingBox.width;
         width += padding;
 
-        height = Math.max(height, child.getBoundarySize().height);
+        height = Math.max(height, childBoundingBox.height);
     }
 
     // 减去最后的间隔
@@ -126,7 +139,7 @@ UICommon._createPanelAlignWidgetsHorizontallyWithPadding = function(padding, ali
 
     var panel = ccui.Layout.create();
     panel.setSize(cc.size(width, height));
-    panel.setAnchorPoint(cc.p(0.5, 0.5));
+    //panel.setAnchorPoint(cc.p(0.5, 0.5));
 
     for(var i = 0; i < array.length; i++)
     {
@@ -205,7 +218,7 @@ UICommon._createPanelAlignWidgetsVerticalWithPadding = function(padding, alignme
 
     var panel = ccui.Layout.create();
     panel.setSize(cc.size(width, height));
-    panel.setAnchorPoint(cc.p(0.5, 0.5));
+    //panel.setAnchorPoint(cc.p(0.5, 0.5));
 
     for(var i = 0; i < array.length; i++)
     {
@@ -265,7 +278,6 @@ UICommon.addBackgroundLayer = function(node, color3b, opacity) {
 };
 
 /**
- *
  * @param oldWidget
  * @param newWidget
  * @param [isNeedFreeMem]
@@ -283,6 +295,7 @@ UICommon.replaceWidget = function(oldWidget, newWidget)
     parent.addChild(newWidget);
     newWidget.setAnchorPoint(anchorPoint);
     newWidget.setPosition(pos);
+    return newWidget;
 };
 
 /**
@@ -308,7 +321,7 @@ UICommon.setAnchorPointWithoutMoving=function(node, anchorPoint){
 };
 
 /**
- * 将一组Node/Widget按矩阵排列
+ * 将一组Node/Widget按矩阵排列(byColumn 表示限制列数)
  * @param {*|cc.Node|ccui.Widget} returnType 这是一个“伪模板参数”，请传cc.Node或cc.Widget
  * @param {Array} array
  * @param {Number|int} col 列数
@@ -324,7 +337,7 @@ UICommon.arrangeAsMatrixByColumn = function(returnType, array, col, gapSize, eac
         return root;
     }
 
-    var fullRow = Math.div(cnt, col);
+    var fullRow = Math.floor(cnt/col);
     var rem = cnt % col;
     var row = fullRow + (rem > 0 ? 1 : 0);
 
@@ -363,7 +376,7 @@ UICommon.arrangeAsMatrixByColumn = function(returnType, array, col, gapSize, eac
 
 
 /**
- * 将一组Node/Widget按矩阵排列(但限制行数 create by jeff4)
+ * 将一组Node/Widget按矩阵排列(byRow 限制行数 )
  * @param {*|cc.Node|ccui.Widget} returnType 这是一个“伪模板参数”，请传cc.Node或cc.Widget
  * @param {Array} array
  * @param {Number|int} row 行数
@@ -439,11 +452,11 @@ UICommon.safeCreateSpriteWithDefaultSpriteName = function(name, defaultName) {
  */
 UICommon.safeCreateSpriteWithDefaultTextureName = function(name, defaultName) {
     var sprite = new cc.Sprite();
-    var texture = cc.textureCache.addImage(name + ".png");
-    //cc.log("图片加载 src === " + name + ".png");
+    var texture = name == undefined ? cc.textureCache.addImage(defaultName) : cc.textureCache.addImage(name);
+    cc.log("图片加载 src === " + name);
     if (texture == null) {
-        cc.error("警告! 图片加载失败 src === " + name + ".png   (将使用默认资源)", defaultName);
-        texture = cc.textureCache.addImage(defaultName + ".png");
+        cc.error("警告! 图片加载失败 src === " + name + "  (将使用默认资源)", defaultName);
+        texture = cc.textureCache.addImage(defaultName);
     }
     if (texture != null) {
         var frame = new cc.SpriteFrame();
@@ -455,14 +468,21 @@ UICommon.safeCreateSpriteWithDefaultTextureName = function(name, defaultName) {
 };
 
 UICommon.setSpriteWithDefaultTextureName = function(sprite, name, defaultName) {
-    cc.log("------- BPUICommon.setSpriteWithDefaultTextureName");
-    var texture = cc.textureCache.addImage(name + ".png");
+    //cc.log("------- BPUICommon.setSpriteWithDefaultTextureName");
+    //cc.log("name::", name);
+    var texture = name == undefined ? cc.textureCache.addImage(defaultName) : cc.textureCache.addImage(name);
+    //var texture = cc.textureCache.getTextureForKey(name) || cc.textureCache.addImage(defaultName);
     if (texture == null)
     {
+        if(!defaultName)
+        {
+            cc.log("警告! 图片加载失败 src === ", name);
+            return;
+        }
         cc.error("警告! 图片加载失败 src === ", name, "(将使用默认资源)", defaultName);
-        texture = cc.textureCache.addImage(defaultName + ".png");
-    }
+        texture = cc.textureCache.addImage(defaultName);
 
+    }
     if (texture != null)
     {
         var frame = new cc.SpriteFrame();
@@ -479,10 +499,10 @@ UICommon.setSpriteWithDefaultTextureName = function(sprite, name, defaultName) {
  * @param {String} [defaultName]
  */
 UICommon.setSpriteWithDefaultSpriteName = function(sprite, name, defaultName) {
-    var frame = cc.spriteFrameCache.getSpriteFrame(name + ".png");
+    var frame = cc.spriteFrameCache.getSpriteFrame(name);
     if (!frame) {
         cc.log("BPUICommon.setSpriteWithDefaultSpriteName: no sprite, name="+name);
-        sprite.setSpriteFrame(defaultName + ".png");
+        sprite.setSpriteFrame(defaultName);
     }else{
         sprite.setSpriteFrame(frame);
     }
@@ -586,6 +606,110 @@ UICommon.createCommonButton = function(sizeOrWidthValue, heightValue)
     var button = new ccui.Button();
     button.setContentSize(size);
     button.setBackGroundColorEx(cc.RED);
-   // button.addClickEventListener()
     return button;
-}
+};
+
+/**
+ * shader泛白
+ * @param node
+ * @param exclusive
+ */
+UICommon.setWhiteRecursive = function (node, exclusive) {
+    var program = cc.shaderCache.getProgram("ShaderPositionTextureColorWhite");
+    if(!program){
+        program = new cc.GLProgram(ShaderFileNames.VERTEX_SHADER_DEFAULT, ShaderFileNames.FRAGMENT_SHADER_WHITE);
+        program.retain();          //jsb需要retain一下，否则会被回收了
+        program.addAttribute(cc.ATTRIBUTE_NAME_POSITION, cc.VERTEX_ATTRIB_POSITION);        //cocos会做初始化的工作
+        program.addAttribute(cc.ATTRIBUTE_NAME_TEX_COORD, cc.VERTEX_ATTRIB_TEX_COORDS);
+        program.link();
+        program.updateUniforms();
+        cc.shaderCache.addProgram(program, "ShaderPositionTextureColorWhite");
+    }
+
+    if (node == undefined || node == null) {
+        return;
+    }
+
+    var children = node.getChildren();
+    for (var i = 0, l = children.length; i < l; ++i) {
+        if (exclusive != undefined && children[i].getTag() == exclusive) {
+            continue;
+        }
+        children[i].setShaderRecursive(program, exclusive);
+    }
+    node.setShaderProgram(program);
+};
+
+/**
+ * shder灰化
+ * @param {cc.Node | ccui.Widget | *} node
+ * @param {Number} [] exclusive  例外的node.getTag
+ */
+UICommon.setGrayRecursive = function(node, exclusive) {
+    if (node == undefined || node == null) {
+        return;
+    }
+
+    var program = cc.shaderCache.getProgram("ShaderPositionTextureColorGray");
+    if(!program){
+        program = new cc.GLProgram(ShaderFileNames.VERTEX_SHADER_DEFAULT, ShaderFileNames.FRAGMENT_SHADER_GRAY);
+        program.retain();          //jsb需要retain一下，否则会被回收了
+        program.addAttribute(cc.ATTRIBUTE_NAME_POSITION, cc.VERTEX_ATTRIB_POSITION);        //cocos会做初始化的工作
+        program.addAttribute(cc.ATTRIBUTE_NAME_TEX_COORD, cc.VERTEX_ATTRIB_TEX_COORDS);
+        program.link();
+        program.updateUniforms();
+        cc.shaderCache.addProgram(program, "ShaderPositionTextureColorGray");
+    }
+
+    var children = node.getChildren();
+    for (var i = 0, l = children.length; i < l; ++i) {
+        if (typeof exclusive != "undefined" && children[i].getTag() == exclusive) {
+            continue;
+        }
+        children[i].setShaderRecursive(program, exclusive);
+    }
+    if(node instanceof ccui.Widget)
+    {
+        node.getVirtualRenderer().setShaderProgram(program);
+    }else{
+        node.setShaderProgram(program);
+    }
+};
+
+
+/**
+ * 恢复原始模样
+ * @param {cc.Node | ccui.Widget | *} node
+ * @param {Number} [exclusive]  例外的node.getTag
+ */
+UICommon.resumeColorRecursive = function(node, exclusive) {
+    if (node == undefined || node == null) {
+        return;
+    }
+
+    var program = cc.shaderCache.getProgram("ShaderPositionTextureColorNormal");
+    if(!program){
+        program = new cc.GLProgram(ShaderFileNames.VERTEX_SHADER_DEFAULT, ShaderFileNames.FRAGMENT_SHADER_NORMAL);
+        program.retain();          //jsb需要retain一下，否则会被回收了
+        program.addAttribute(cc.ATTRIBUTE_NAME_POSITION, cc.VERTEX_ATTRIB_POSITION);        //cocos会做初始化的工作
+        //program.addAttribute(cc.ATTRIBUTE_NAME_TEX_COORD, cc.VERTEX_ATTRIB_TEX_COORDS);
+        program.link();
+        program.updateUniforms();
+        cc.shaderCache.addProgram(program, "ShaderPositionTextureColorNormal");
+    }
+
+    var children = node.getChildren();
+    for (var i = 0, l = children.length; i < l; ++i) {
+        if (typeof exclusive != "undefined" && children[i].getTag() == exclusive) {
+            continue;
+        }
+        children[i].setShaderRecursive(program, exclusive);
+    }
+
+    if(node instanceof ccui.Widget)
+    {
+        node.getVirtualRenderer().setShaderProgram(program);
+    }else{
+        node.setShaderProgram(program);
+    }
+};

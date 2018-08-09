@@ -1,0 +1,1256 @@
+{
+  "ID": "a613a538-32fe-443c-8430-90e60ab13dde",
+  "Version": "3.10.0.0",
+  "Name": "SplitInvitationCodeView",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 12,
+        "Children": [
+          {
+            "ClipAble": false,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 51,
+              "G": 59,
+              "B": 80
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentWidthEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 0.4693
+            },
+            "TopMargin": 398.0,
+            "Tag": 22,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": -17,
+                "Scale9OriginY": -16,
+                "Scale9Width": 34,
+                "Scale9Height": 32,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PercentHeightEnable": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 0.5622,
+                  "Y": 1.0
+                },
+                "RightMargin": 584.0,
+                "Tag": 13,
+                "Children": [
+                  {
+                    "FontSize": 32,
+                    "LabelText": "您需要输入邀请码才能进行操作",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 375.0,
+                      "Y": 276.1264
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.7844
+                    },
+                    "PreSize": {
+                      "X": 0.5973,
+                      "Y": 0.0938
+                    },
+                    "LeftMargin": 151.0,
+                    "RightMargin": 151.0,
+                    "TopMargin": 59.3736,
+                    "BottomMargin": 259.6264,
+                    "Tag": 14,
+                    "ActionTag": -2083139414,
+                    "Size": {
+                      "X": 448.0,
+                      "Y": 33.0
+                    },
+                    "Name": "tittleText",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 26,
+                    "LabelText": "邀请码是二维码下面的编号",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 375.0,
+                      "Y": 218.517
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 143,
+                      "G": 162,
+                      "B": 176
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.6208
+                    },
+                    "PreSize": {
+                      "X": 0.416,
+                      "Y": 0.0739
+                    },
+                    "LeftMargin": 219.0,
+                    "RightMargin": 219.0,
+                    "TopMargin": 120.483,
+                    "BottomMargin": 205.517,
+                    "Tag": 15,
+                    "ActionTag": 574133138,
+                    "Size": {
+                      "X": 312.0,
+                      "Y": 26.0
+                    },
+                    "Name": "tipsText",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 26,
+                    "LabelText": "您输入的邀请码错误，请重新输入",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 375.0,
+                      "Y": 176.906
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 217,
+                      "G": 73,
+                      "B": 47
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5026
+                    },
+                    "PreSize": {
+                      "X": 0.52,
+                      "Y": 0.0739
+                    },
+                    "LeftMargin": 180.0,
+                    "RightMargin": 180.0,
+                    "TopMargin": 162.094,
+                    "BottomMargin": 163.906,
+                    "Tag": 16,
+                    "ActionTag": -139652989,
+                    "Size": {
+                      "X": 390.0,
+                      "Y": 26.0
+                    },
+                    "Name": "verifyTipsText",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 119,
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "btn_common_dark_grey_n.png",
+                      "Plist": "ui_general.plist"
+                    },
+                    "SingleColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 9,
+                    "Scale9OriginY": 10,
+                    "Scale9Width": 14,
+                    "Scale9Height": 12,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5
+                    },
+                    "Position": {
+                      "X": 375.0,
+                      "Y": 63.3344
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.1799
+                    },
+                    "PreSize": {
+                      "X": 0.68,
+                      "Y": 0.2415
+                    },
+                    "LeftMargin": 120.0,
+                    "RightMargin": 120.0,
+                    "TopMargin": 203.6656,
+                    "BottomMargin": 63.3344,
+                    "Tag": 17,
+                    "ActionTag": -256993267,
+                    "Size": {
+                      "X": 510.0,
+                      "Y": 85.0
+                    },
+                    "Name": "editBgPanel",
+                    "ctype": "PanelObjectData"
+                  }
+                ],
+                "ActionTag": 155387305,
+                "Size": {
+                  "X": 750.0,
+                  "Y": 352.0
+                },
+                "Name": "Panel_1",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 132,
+                "SingleColor": {
+                  "R": 4,
+                  "G": 10,
+                  "B": 33
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 1.0
+                },
+                "Position": {
+                  "X": 1334.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 0.8905,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 1.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.4498,
+                  "Y": 1.0
+                },
+                "LeftMargin": 734.0,
+                "Tag": 63,
+                "Children": [
+                  {
+                    "FontSize": 48,
+                    "ButtonText": "1",
+                    "TextColor": {},
+                    "DisabledFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "btn_keyboard_pre.png",
+                      "Plist": "ui_general.plist"
+                    },
+                    "PressedFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "btn_keyboard_pre.png",
+                      "Plist": "ui_general.plist"
+                    },
+                    "NormalFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "btn_keyboard_n.png",
+                      "Plist": "ui_general.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 9,
+                    "Scale9OriginY": 6,
+                    "Scale9Width": 2,
+                    "Scale9Height": 8,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 100.0,
+                      "Y": 308.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.1667,
+                      "Y": 0.875
+                    },
+                    "PreSize": {
+                      "X": 0.3333,
+                      "Y": 0.25
+                    },
+                    "RightMargin": 400.0,
+                    "BottomMargin": 264.0,
+                    "Tag": 64,
+                    "ActionTag": 1464070823,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 88.0
+                    },
+                    "Name": "Button_1",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 48,
+                    "ButtonText": "8",
+                    "TextColor": {},
+                    "DisabledFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "btn_keyboard_pre.png",
+                      "Plist": "ui_general.plist"
+                    },
+                    "PressedFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "btn_keyboard_pre.png",
+                      "Plist": "ui_general.plist"
+                    },
+                    "NormalFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "btn_keyboard_n.png",
+                      "Plist": "ui_general.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 9,
+                    "Scale9OriginY": 6,
+                    "Scale9Width": 2,
+                    "Scale9Height": 8,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 300.0,
+                      "Y": 132.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.375
+                    },
+                    "PreSize": {
+                      "X": 0.3333,
+                      "Y": 0.25
+                    },
+                    "LeftMargin": 200.0,
+                    "RightMargin": 200.0,
+                    "TopMargin": 176.0,
+                    "BottomMargin": 88.0,
+                    "Tag": 65,
+                    "ActionTag": 1995839807,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 88.0
+                    },
+                    "Name": "Button_8",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 48,
+                    "ButtonText": "7",
+                    "TextColor": {},
+                    "DisabledFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "btn_keyboard_pre.png",
+                      "Plist": "ui_general.plist"
+                    },
+                    "PressedFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "btn_keyboard_pre.png",
+                      "Plist": "ui_general.plist"
+                    },
+                    "NormalFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "btn_keyboard_n.png",
+                      "Plist": "ui_general.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 9,
+                    "Scale9OriginY": 6,
+                    "Scale9Width": 2,
+                    "Scale9Height": 8,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 100.0,
+                      "Y": 132.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.1667,
+                      "Y": 0.375
+                    },
+                    "PreSize": {
+                      "X": 0.3333,
+                      "Y": 0.25
+                    },
+                    "RightMargin": 400.0,
+                    "TopMargin": 176.0,
+                    "BottomMargin": 88.0,
+                    "Tag": 66,
+                    "ActionTag": 176035670,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 88.0
+                    },
+                    "Name": "Button_7",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 48,
+                    "ButtonText": "4",
+                    "TextColor": {},
+                    "DisabledFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "btn_keyboard_pre.png",
+                      "Plist": "ui_general.plist"
+                    },
+                    "PressedFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "btn_keyboard_pre.png",
+                      "Plist": "ui_general.plist"
+                    },
+                    "NormalFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "btn_keyboard_n.png",
+                      "Plist": "ui_general.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 9,
+                    "Scale9OriginY": 6,
+                    "Scale9Width": 2,
+                    "Scale9Height": 8,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 100.0,
+                      "Y": 220.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.1667,
+                      "Y": 0.625
+                    },
+                    "PreSize": {
+                      "X": 0.3333,
+                      "Y": 0.25
+                    },
+                    "RightMargin": 400.0,
+                    "TopMargin": 88.0,
+                    "BottomMargin": 176.0,
+                    "Tag": 67,
+                    "ActionTag": 787968460,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 88.0
+                    },
+                    "Name": "Button_4",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 48,
+                    "ButtonText": "5",
+                    "TextColor": {},
+                    "DisabledFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "btn_keyboard_pre.png",
+                      "Plist": "ui_general.plist"
+                    },
+                    "PressedFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "btn_keyboard_pre.png",
+                      "Plist": "ui_general.plist"
+                    },
+                    "NormalFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "btn_keyboard_n.png",
+                      "Plist": "ui_general.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 9,
+                    "Scale9OriginY": 6,
+                    "Scale9Width": 2,
+                    "Scale9Height": 8,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 300.0,
+                      "Y": 220.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.625
+                    },
+                    "PreSize": {
+                      "X": 0.3333,
+                      "Y": 0.25
+                    },
+                    "LeftMargin": 200.0,
+                    "RightMargin": 200.0,
+                    "TopMargin": 88.0,
+                    "BottomMargin": 176.0,
+                    "Tag": 68,
+                    "ActionTag": 763868522,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 88.0
+                    },
+                    "Name": "Button_5",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 48,
+                    "ButtonText": "2",
+                    "TextColor": {},
+                    "DisabledFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "btn_keyboard_pre.png",
+                      "Plist": "ui_general.plist"
+                    },
+                    "PressedFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "btn_keyboard_pre.png",
+                      "Plist": "ui_general.plist"
+                    },
+                    "NormalFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "btn_keyboard_n.png",
+                      "Plist": "ui_general.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 9,
+                    "Scale9OriginY": 6,
+                    "Scale9Width": 2,
+                    "Scale9Height": 8,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 300.0,
+                      "Y": 308.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.875
+                    },
+                    "PreSize": {
+                      "X": 0.3333,
+                      "Y": 0.25
+                    },
+                    "LeftMargin": 200.0,
+                    "RightMargin": 200.0,
+                    "BottomMargin": 264.0,
+                    "Tag": 69,
+                    "ActionTag": -1848128076,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 88.0
+                    },
+                    "Name": "Button_2",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 48,
+                    "ButtonText": "6",
+                    "TextColor": {},
+                    "DisabledFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "btn_keyboard_pre.png",
+                      "Plist": "ui_general.plist"
+                    },
+                    "PressedFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "btn_keyboard_pre.png",
+                      "Plist": "ui_general.plist"
+                    },
+                    "NormalFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "btn_keyboard_n.png",
+                      "Plist": "ui_general.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 9,
+                    "Scale9OriginY": 6,
+                    "Scale9Width": 2,
+                    "Scale9Height": 8,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 500.0,
+                      "Y": 220.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.8333,
+                      "Y": 0.625
+                    },
+                    "PreSize": {
+                      "X": 0.3333,
+                      "Y": 0.25
+                    },
+                    "LeftMargin": 400.0,
+                    "TopMargin": 88.0,
+                    "BottomMargin": 176.0,
+                    "Tag": 70,
+                    "ActionTag": 1103845915,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 88.0
+                    },
+                    "Name": "Button_6",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 48,
+                    "ButtonText": "9",
+                    "TextColor": {},
+                    "DisabledFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "btn_keyboard_pre.png",
+                      "Plist": "ui_general.plist"
+                    },
+                    "PressedFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "btn_keyboard_pre.png",
+                      "Plist": "ui_general.plist"
+                    },
+                    "NormalFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "btn_keyboard_n.png",
+                      "Plist": "ui_general.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 9,
+                    "Scale9OriginY": 6,
+                    "Scale9Width": 2,
+                    "Scale9Height": 8,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 500.0,
+                      "Y": 132.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.8333,
+                      "Y": 0.375
+                    },
+                    "PreSize": {
+                      "X": 0.3333,
+                      "Y": 0.25
+                    },
+                    "LeftMargin": 400.0,
+                    "TopMargin": 176.0,
+                    "BottomMargin": 88.0,
+                    "Tag": 71,
+                    "ActionTag": -959579642,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 88.0
+                    },
+                    "Name": "Button_9",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 48,
+                    "ButtonText": "3",
+                    "TextColor": {},
+                    "DisabledFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "btn_keyboard_pre.png",
+                      "Plist": "ui_general.plist"
+                    },
+                    "PressedFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "btn_keyboard_pre.png",
+                      "Plist": "ui_general.plist"
+                    },
+                    "NormalFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "btn_keyboard_n.png",
+                      "Plist": "ui_general.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 9,
+                    "Scale9OriginY": 6,
+                    "Scale9Width": 2,
+                    "Scale9Height": 8,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 500.0,
+                      "Y": 308.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.8333,
+                      "Y": 0.875
+                    },
+                    "PreSize": {
+                      "X": 0.3333,
+                      "Y": 0.25
+                    },
+                    "LeftMargin": 400.0,
+                    "BottomMargin": 264.0,
+                    "Tag": 72,
+                    "ActionTag": 300481356,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 88.0
+                    },
+                    "Name": "Button_3",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 48,
+                    "ButtonText": "0",
+                    "TextColor": {},
+                    "DisabledFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "btn_keyboard_pre.png",
+                      "Plist": "ui_general.plist"
+                    },
+                    "PressedFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "btn_keyboard_pre.png",
+                      "Plist": "ui_general.plist"
+                    },
+                    "NormalFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "btn_keyboard_n.png",
+                      "Plist": "ui_general.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 9,
+                    "Scale9OriginY": 6,
+                    "Scale9Width": 2,
+                    "Scale9Height": 8,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 300.0,
+                      "Y": 44.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.125
+                    },
+                    "PreSize": {
+                      "X": 0.3333,
+                      "Y": 0.25
+                    },
+                    "LeftMargin": 200.0,
+                    "RightMargin": 200.0,
+                    "TopMargin": 264.0,
+                    "Tag": 73,
+                    "ActionTag": -1242373374,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 88.0
+                    },
+                    "Name": "Button_0",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 48,
+                    "ButtonText": "删除",
+                    "TextColor": {},
+                    "DisabledFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "btn_keyboard_pre.png",
+                      "Plist": "ui_general.plist"
+                    },
+                    "PressedFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "btn_keyboard_pre.png",
+                      "Plist": "ui_general.plist"
+                    },
+                    "NormalFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "btn_keyboard_n.png",
+                      "Plist": "ui_general.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 6,
+                    "Scale9OriginY": 6,
+                    "Scale9Width": 8,
+                    "Scale9Height": 8,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 100.0,
+                      "Y": 44.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.1667,
+                      "Y": 0.125
+                    },
+                    "PreSize": {
+                      "X": 0.3333,
+                      "Y": 0.25
+                    },
+                    "RightMargin": 400.0,
+                    "TopMargin": 264.0,
+                    "Tag": 74,
+                    "ActionTag": -457080029,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 88.0
+                    },
+                    "Name": "delBtn",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 48,
+                    "ButtonText": "确定",
+                    "TextColor": {},
+                    "DisabledFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "btn_keyboard_pre.png",
+                      "Plist": "ui_general.plist"
+                    },
+                    "PressedFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "btn_keyboard_pre.png",
+                      "Plist": "ui_general.plist"
+                    },
+                    "NormalFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "btn_keyboard_n.png",
+                      "Plist": "ui_general.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 6,
+                    "Scale9OriginY": 6,
+                    "Scale9Width": 8,
+                    "Scale9Height": 8,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 500.0,
+                      "Y": 44.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.8333,
+                      "Y": 0.125
+                    },
+                    "PreSize": {
+                      "X": 0.3333,
+                      "Y": 0.25
+                    },
+                    "LeftMargin": 400.0,
+                    "TopMargin": 264.0,
+                    "Tag": 75,
+                    "ActionTag": 1557961765,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 88.0
+                    },
+                    "Name": "okBtn",
+                    "ctype": "ButtonObjectData"
+                  }
+                ],
+                "ActionTag": -160825679,
+                "Size": {
+                  "X": 600.0,
+                  "Y": 352.0
+                },
+                "Name": "keyboardPanel",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": 1556344579,
+            "Size": {
+              "X": 1334.0,
+              "Y": 352.0
+            },
+            "Name": "bottomPanel",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "SplitInvitationCodeView",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "ui_general.plist",
+        "ui_general.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

@@ -1,0 +1,1016 @@
+{
+  "ID": "0854491b-9bb9-408c-9b16-fa34ba15d7be",
+  "Version": "3.10.0.0",
+  "Name": "RoomShare",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 56,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "bg_common_bar.png",
+              "Plist": "ui_general.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 17,
+            "Scale9OriginY": 16,
+            "Scale9Width": 20,
+            "Scale9Height": 17,
+            "AnchorPoint": {
+              "ScaleX": 0.5
+            },
+            "Position": {
+              "X": 667.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 0.3667
+            },
+            "TopMargin": 474.975,
+            "Tag": 28,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 143,
+                  "G": 162,
+                  "B": 176
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 239.9925
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.8726
+                },
+                "PreSize": {
+                  "X": 0.431,
+                  "Y": 0.0073
+                },
+                "RightMargin": 759.0,
+                "TopMargin": 33.0325,
+                "BottomMargin": 239.9925,
+                "Tag": 29,
+                "ActionTag": -295030625,
+                "Size": {
+                  "X": 575.0,
+                  "Y": 2.0
+                },
+                "Name": "panelLine",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 143,
+                  "G": 162,
+                  "B": 176
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 1.0
+                },
+                "Position": {
+                  "X": 1334.0,
+                  "Y": 239.9925
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 1.0,
+                  "Y": 0.8726
+                },
+                "PreSize": {
+                  "X": 0.431,
+                  "Y": 0.0073
+                },
+                "LeftMargin": 759.0,
+                "TopMargin": 33.0325,
+                "BottomMargin": 239.9925,
+                "Tag": 31,
+                "ActionTag": -541988692,
+                "Size": {
+                  "X": 575.0,
+                  "Y": 2.0
+                },
+                "Name": "panelLineT",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FontSize": 24,
+                "LabelText": "分享",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 667.0,
+                  "Y": 239.9925
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 143,
+                  "G": 162,
+                  "B": 176
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.8726
+                },
+                "PreSize": {
+                  "X": 0.036,
+                  "Y": 0.0873
+                },
+                "LeftMargin": 643.0,
+                "RightMargin": 643.0,
+                "TopMargin": 23.0325,
+                "BottomMargin": 227.9925,
+                "Tag": 32,
+                "ActionTag": -1848755921,
+                "Size": {
+                  "X": 48.0,
+                  "Y": 24.0
+                },
+                "Name": "textShare",
+                "ctype": "TextObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 1.0
+                },
+                "Position": {
+                  "X": 717.025,
+                  "Y": -16.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5375,
+                  "Y": -0.0582
+                },
+                "PreSize": {
+                  "X": 0.075,
+                  "Y": 0.7272
+                },
+                "LeftMargin": 617.025,
+                "RightMargin": 616.975,
+                "TopMargin": 91.025,
+                "BottomMargin": -16.0,
+                "Tag": 33,
+                "Children": [
+                  {
+                    "FontSize": 24,
+                    "LabelText": "QQ",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5
+                    },
+                    "Position": {
+                      "X": 50.0,
+                      "Y": 56.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 143,
+                      "G": 162,
+                      "B": 176
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.28
+                    },
+                    "PreSize": {
+                      "X": 0.24,
+                      "Y": 0.12
+                    },
+                    "LeftMargin": 38.0,
+                    "RightMargin": 38.0,
+                    "TopMargin": 120.0,
+                    "BottomMargin": 56.0,
+                    "Tag": 39,
+                    "ActionTag": 1497676275,
+                    "Size": {
+                      "X": 24.0,
+                      "Y": 24.0
+                    },
+                    "Name": "Text_2",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "icon_qq.png",
+                      "Plist": "ui_general.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5
+                    },
+                    "Position": {
+                      "X": 50.0,
+                      "Y": 100.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 0.5
+                    },
+                    "BottomMargin": 100.0,
+                    "Tag": 38,
+                    "ActionTag": 661337818,
+                    "Size": {
+                      "X": 100.0,
+                      "Y": 100.0
+                    },
+                    "Name": "icon_qq_1",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 635075699,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 200.0
+                },
+                "Name": "panelQQ",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 1007.0366,
+                  "Y": -16.005
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.7549,
+                  "Y": -0.0582
+                },
+                "PreSize": {
+                  "X": 0.075,
+                  "Y": 0.7272
+                },
+                "LeftMargin": 1007.0366,
+                "RightMargin": 226.9634,
+                "TopMargin": 91.03,
+                "BottomMargin": -16.005,
+                "Tag": 35,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "icon_weibo.png",
+                      "Plist": "ui_general.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 1.0
+                    },
+                    "Position": {
+                      "X": 100.0,
+                      "Y": 100.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 1.0,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 0.5
+                    },
+                    "BottomMargin": 100.0,
+                    "Tag": 41,
+                    "ActionTag": 125770575,
+                    "Size": {
+                      "X": 100.0,
+                      "Y": 100.0
+                    },
+                    "Name": "icon_qq_1_0",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FontSize": 24,
+                    "LabelText": "微博",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 1.0
+                    },
+                    "Position": {
+                      "X": 50.0,
+                      "Y": 80.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 143,
+                      "G": 162,
+                      "B": 176
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.4
+                    },
+                    "PreSize": {
+                      "X": 0.48,
+                      "Y": 0.12
+                    },
+                    "LeftMargin": 26.0,
+                    "RightMargin": 26.0,
+                    "TopMargin": 120.0,
+                    "BottomMargin": 56.0,
+                    "Tag": 47,
+                    "ActionTag": -1844875802,
+                    "Size": {
+                      "X": 48.0,
+                      "Y": 24.0
+                    },
+                    "Name": "Text_2_0",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -1271341455,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 200.0
+                },
+                "Name": "panelWB",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 812.0058,
+                  "Y": -16.0065
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.6087,
+                  "Y": -0.0582
+                },
+                "PreSize": {
+                  "X": 0.075,
+                  "Y": 0.7272
+                },
+                "LeftMargin": 812.0058,
+                "RightMargin": 421.9942,
+                "TopMargin": 91.0314,
+                "BottomMargin": -16.0065,
+                "Tag": 36,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "ui_other/icon_qzone.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5
+                    },
+                    "Position": {
+                      "X": 50.0,
+                      "Y": 100.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 1.1,
+                      "Y": 0.55
+                    },
+                    "LeftMargin": -5.0,
+                    "RightMargin": -5.0,
+                    "TopMargin": -10.0,
+                    "BottomMargin": 100.0,
+                    "Tag": 42,
+                    "ActionTag": -1619235151,
+                    "Size": {
+                      "X": 110.0,
+                      "Y": 110.0
+                    },
+                    "Name": "icon_qq_1_0",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FontSize": 24,
+                    "LabelText": "QQ空间",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 1.0
+                    },
+                    "Position": {
+                      "X": 50.0,
+                      "Y": 80.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 143,
+                      "G": 162,
+                      "B": 176
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.4
+                    },
+                    "PreSize": {
+                      "X": 0.72,
+                      "Y": 0.12
+                    },
+                    "LeftMargin": 14.0,
+                    "RightMargin": 14.0,
+                    "TopMargin": 120.0,
+                    "BottomMargin": 56.0,
+                    "Tag": 45,
+                    "ActionTag": 1247362585,
+                    "Size": {
+                      "X": 72.0,
+                      "Y": 24.0
+                    },
+                    "Name": "Text_2_0",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 197726500,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 200.0
+                },
+                "Name": "panelQQSpace",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 423.0114,
+                  "Y": -16.005
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.3171,
+                  "Y": -0.0582
+                },
+                "PreSize": {
+                  "X": 0.075,
+                  "Y": 0.7272
+                },
+                "LeftMargin": 423.0114,
+                "RightMargin": 810.9886,
+                "TopMargin": 91.03,
+                "BottomMargin": -16.005,
+                "Tag": 37,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "ui_other/icon_moments.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5
+                    },
+                    "Position": {
+                      "X": 50.0,
+                      "Y": 100.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 1.1,
+                      "Y": 0.55
+                    },
+                    "LeftMargin": -5.0,
+                    "RightMargin": -5.0,
+                    "TopMargin": -10.0,
+                    "BottomMargin": 100.0,
+                    "Tag": 43,
+                    "ActionTag": 32033912,
+                    "Size": {
+                      "X": 110.0,
+                      "Y": 110.0
+                    },
+                    "Name": "icon_qq_1_0",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FontSize": 24,
+                    "LabelText": "朋友圈",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 1.0
+                    },
+                    "Position": {
+                      "X": 50.0,
+                      "Y": 80.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 143,
+                      "G": 162,
+                      "B": 176
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.4
+                    },
+                    "PreSize": {
+                      "X": 0.72,
+                      "Y": 0.12
+                    },
+                    "LeftMargin": 14.0,
+                    "RightMargin": 14.0,
+                    "TopMargin": 120.0,
+                    "BottomMargin": 56.0,
+                    "Tag": 46,
+                    "ActionTag": 2124354323,
+                    "Size": {
+                      "X": 72.0,
+                      "Y": 24.0
+                    },
+                    "Name": "Text_2_0",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 1829256700,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 200.0
+                },
+                "Name": "panelFriendPen",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 1.0
+                },
+                "Position": {
+                  "X": 328.0306,
+                  "Y": -16.005
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.2459,
+                  "Y": -0.0582
+                },
+                "PreSize": {
+                  "X": 0.075,
+                  "Y": 0.7272
+                },
+                "LeftMargin": 228.0306,
+                "RightMargin": 1005.9694,
+                "TopMargin": 91.03,
+                "BottomMargin": -16.005,
+                "Tag": 48,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "icon_wechat.png",
+                      "Plist": "ui_general.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5
+                    },
+                    "Position": {
+                      "X": 50.0,
+                      "Y": 100.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 0.5
+                    },
+                    "BottomMargin": 100.0,
+                    "Tag": 49,
+                    "ActionTag": 79498469,
+                    "Size": {
+                      "X": 100.0,
+                      "Y": 100.0
+                    },
+                    "Name": "icon_qq_1_0",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FontSize": 24,
+                    "LabelText": "微信",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 1.0
+                    },
+                    "Position": {
+                      "X": 50.0,
+                      "Y": 80.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 143,
+                      "G": 162,
+                      "B": 176
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.4
+                    },
+                    "PreSize": {
+                      "X": 0.48,
+                      "Y": 0.12
+                    },
+                    "LeftMargin": 26.0,
+                    "RightMargin": 26.0,
+                    "TopMargin": 120.0,
+                    "BottomMargin": 56.0,
+                    "Tag": 50,
+                    "ActionTag": -71961759,
+                    "Size": {
+                      "X": 48.0,
+                      "Y": 24.0
+                    },
+                    "Name": "Text_2_0",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -892275285,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 200.0
+                },
+                "Name": "panelWX",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": -2124928649,
+            "Size": {
+              "X": 1334.0,
+              "Y": 275.025
+            },
+            "Name": "imageBg",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "ui_general.plist",
+        "ui_general.png",
+        "ui_other/icon_moments.png",
+        "ui_other/icon_qzone.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

@@ -1,0 +1,822 @@
+{
+  "ID": "5054913f-26b8-4741-80ca-6b8d579ec356",
+  "Version": "3.10.0.0",
+  "Name": "IDCardUpLoadLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 139,
+        "Children": [
+          {
+            "ClipAble": false,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 237,
+              "G": 239,
+              "B": 239
+            },
+            "FirstColor": {
+              "R": 28,
+              "G": 40,
+              "B": 59
+            },
+            "EndColor": {
+              "R": 17,
+              "G": 25,
+              "B": 45
+            },
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": -1.5844,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": -0.0012,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "LeftMargin": -1.5844,
+            "RightMargin": 1.5844,
+            "Tag": 176,
+            "ActionTag": 1666342594,
+            "Size": {
+              "X": 1334.0,
+              "Y": 750.0
+            },
+            "Name": "Panel_1_0",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 28,
+              "G": 30,
+              "B": 43
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 750.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 1.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 0.136
+            },
+            "BottomMargin": 648.0,
+            "Tag": 177,
+            "Children": [
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 68,
+                  "G": 123,
+                  "B": 195
+                },
+                "NormalFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "icon_common_back_new.png",
+                  "Plist": "ui_general.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 9,
+                "Scale9OriginY": 11,
+                "Scale9Width": 52,
+                "Scale9Height": 48,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 18.0,
+                  "Y": 51.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.0135,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.0525,
+                  "Y": 0.6863
+                },
+                "LeftMargin": 18.0,
+                "RightMargin": 1246.0,
+                "TopMargin": 16.0,
+                "BottomMargin": 16.0,
+                "Tag": 178,
+                "ActionTag": 12697532,
+                "Size": {
+                  "X": 70.0,
+                  "Y": 70.0
+                },
+                "Name": "backBtn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 34,
+                "LabelText": "提现",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 667.0,
+                  "Y": 51.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.051,
+                  "Y": 0.3333
+                },
+                "LeftMargin": 633.0,
+                "RightMargin": 633.0,
+                "TopMargin": 34.0,
+                "BottomMargin": 34.0,
+                "Tag": 179,
+                "ActionTag": -1176845848,
+                "Size": {
+                  "X": 68.0,
+                  "Y": 34.0
+                },
+                "Name": "titleTxt",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -1503126072,
+            "Size": {
+              "X": 1334.0,
+              "Y": 102.0
+            },
+            "Name": "titlePanel",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "StretchWidthEnable": true,
+            "StretchHeightEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0001,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 0.8667
+            },
+            "VerticalEdge": "BothEdge",
+            "LeftMargin": 0.0001,
+            "RightMargin": -0.0001,
+            "TopMargin": 100.0,
+            "Tag": 180,
+            "Children": [
+              {
+                "FontSize": 30,
+                "ButtonText": "确定",
+                "TextColor": {},
+                "NormalFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "btn_common_red_n.png",
+                  "Plist": "ui_general.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 8,
+                "Scale9OriginY": 11,
+                "Scale9Width": 14,
+                "Scale9Height": 8,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 667.0,
+                  "Y": 80.85
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1244
+                },
+                "PreSize": {
+                  "X": 0.3598,
+                  "Y": 0.1385
+                },
+                "LeftMargin": 427.0,
+                "RightMargin": 427.0,
+                "TopMargin": 524.15,
+                "BottomMargin": 35.85,
+                "Tag": 228,
+                "ActionTag": -525424068,
+                "Size": {
+                  "X": 480.0,
+                  "Y": 90.0
+                },
+                "Name": "confirmBtn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 24,
+                "LabelText": "第一次提现需要上传身份证照片，下次提现无需重新上传",
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 667.0,
+                  "Y": 199.615
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 217,
+                  "G": 73,
+                  "B": 47
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.3071
+                },
+                "PreSize": {
+                  "X": 0.7496,
+                  "Y": 0.0738
+                },
+                "LeftMargin": 167.0,
+                "RightMargin": 167.0,
+                "TopMargin": 426.385,
+                "BottomMargin": 175.615,
+                "Tag": 229,
+                "ActionTag": -1029997586,
+                "Size": {
+                  "X": 1000.0,
+                  "Y": 48.0
+                },
+                "Name": "tipTxtTop",
+                "ctype": "TextObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 24,
+                "LabelText": "请认真上传清晰正确的身份证照片，客服妹子会审核的哦~",
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 667.0,
+                  "Y": 236.925
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 217,
+                  "G": 73,
+                  "B": 47
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.3645
+                },
+                "PreSize": {
+                  "X": 0.7496,
+                  "Y": 0.0738
+                },
+                "LeftMargin": 167.0,
+                "RightMargin": 167.0,
+                "TopMargin": 389.075,
+                "BottomMargin": 212.925,
+                "Tag": 230,
+                "ActionTag": -868781878,
+                "Size": {
+                  "X": 1000.0,
+                  "Y": 48.0
+                },
+                "Name": "tipTxtBottom",
+                "ctype": "TextObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "ui_source/ui_general/bg_common_bottom_frame.png",
+                  "Plist": ""
+                },
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 25,
+                "Scale9OriginY": 25,
+                "Scale9Width": 28,
+                "Scale9Height": 28,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 106.72,
+                  "Y": 315.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.08,
+                  "Y": 0.4846
+                },
+                "PreSize": {
+                  "X": 0.3793,
+                  "Y": 0.4277
+                },
+                "LeftMargin": 106.72,
+                "RightMargin": 721.28,
+                "TopMargin": 57.0,
+                "BottomMargin": 315.0,
+                "Tag": 233,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "ui_source/ui_general/icon_id_card_add.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 23,
+                    "Scale9OriginY": 23,
+                    "Scale9Width": 26,
+                    "Scale9Height": 26,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 253.0,
+                      "Y": 166.8
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.6
+                    },
+                    "PreSize": {
+                      "X": 0.1423,
+                      "Y": 0.259
+                    },
+                    "LeftMargin": 217.0,
+                    "RightMargin": 217.0,
+                    "TopMargin": 75.2,
+                    "BottomMargin": 130.8,
+                    "Tag": 235,
+                    "ActionTag": 997916865,
+                    "Size": {
+                      "X": 72.0,
+                      "Y": 72.0
+                    },
+                    "Name": "addImage",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 24,
+                    "LabelText": "点击上传身份证正面",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 253.0,
+                      "Y": 88.96
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 127,
+                      "G": 127,
+                      "B": 127
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.32
+                    },
+                    "PreSize": {
+                      "X": 0.4269,
+                      "Y": 0.0863
+                    },
+                    "LeftMargin": 145.0,
+                    "RightMargin": 145.0,
+                    "TopMargin": 177.04,
+                    "BottomMargin": 76.96,
+                    "Tag": 236,
+                    "ActionTag": -495489160,
+                    "Size": {
+                      "X": 216.0,
+                      "Y": 24.0
+                    },
+                    "Name": "text",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 1290245250,
+                "Size": {
+                  "X": 506.0,
+                  "Y": 278.0
+                },
+                "Name": "IDCardFrontSidePanel",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "ui_source/ui_general/bg_common_bottom_frame.png",
+                  "Plist": ""
+                },
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 25,
+                "Scale9OriginY": 25,
+                "Scale9Width": 28,
+                "Scale9Height": 28,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 720.36,
+                  "Y": 315.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.54,
+                  "Y": 0.4846
+                },
+                "PercentWidthEnable": true,
+                "PercentWidthEnabled": true,
+                "PreSize": {
+                  "X": 0.3793,
+                  "Y": 0.4277
+                },
+                "LeftMargin": 720.36,
+                "RightMargin": 107.6538,
+                "TopMargin": 57.0,
+                "BottomMargin": 315.0,
+                "Tag": 234,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "ui_source/ui_general/icon_id_card_add.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 23,
+                    "Scale9OriginY": 23,
+                    "Scale9Width": 26,
+                    "Scale9Height": 26,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 252.9931,
+                      "Y": 166.8
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.6
+                    },
+                    "PreSize": {
+                      "X": 0.1423,
+                      "Y": 0.259
+                    },
+                    "LeftMargin": 216.9931,
+                    "RightMargin": 216.9931,
+                    "TopMargin": 75.2,
+                    "BottomMargin": 130.8,
+                    "Tag": 237,
+                    "ActionTag": -529334850,
+                    "Size": {
+                      "X": 72.0,
+                      "Y": 72.0
+                    },
+                    "Name": "addImage",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 24,
+                    "LabelText": "点击上传身份证反面",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 252.9931,
+                      "Y": 88.96
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 127,
+                      "G": 127,
+                      "B": 127
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.32
+                    },
+                    "PreSize": {
+                      "X": 0.4269,
+                      "Y": 0.0863
+                    },
+                    "LeftMargin": 144.9931,
+                    "RightMargin": 144.9931,
+                    "TopMargin": 177.04,
+                    "BottomMargin": 76.96,
+                    "Tag": 238,
+                    "ActionTag": -1960872987,
+                    "Size": {
+                      "X": 216.0,
+                      "Y": 24.0
+                    },
+                    "Name": "text",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 880592721,
+                "Size": {
+                  "X": 505.9862,
+                  "Y": 278.0
+                },
+                "Name": "IDCardBackSidePanel",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": -1741236218,
+            "Size": {
+              "X": 1334.0,
+              "Y": 650.0
+            },
+            "Name": "uploadPanel",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "ui_general.plist",
+        "ui_general.png",
+        "ui_source/ui_general/bg_common_bottom_frame.png",
+        "ui_source/ui_general/icon_id_card_add.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

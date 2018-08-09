@@ -1,0 +1,616 @@
+{
+  "ID": "f6429fae-720b-4ec9-b274-4bc8126e3917",
+  "Version": "3.10.0.0",
+  "Name": "UserInfoAuthentication",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 203,
+        "Children": [
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "PlistSubImage",
+              "Path": "btn_close.png",
+              "Plist": "ui_general.plist"
+            },
+            "PressedFileData": {
+              "Type": "PlistSubImage",
+              "Path": "btn_close.png",
+              "Plist": "ui_general.plist"
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "btn_close.png",
+              "Plist": "ui_general.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 22,
+            "Scale9Height": 30,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 667.0,
+              "Y": 96.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.128
+            },
+            "PreSize": {
+              "X": 0.039,
+              "Y": 0.0693
+            },
+            "LeftMargin": 641.0,
+            "RightMargin": 641.0,
+            "TopMargin": 628.0,
+            "BottomMargin": 70.0,
+            "Tag": 1803,
+            "ActionTag": -1450874334,
+            "Size": {
+              "X": 52.0,
+              "Y": 52.0
+            },
+            "Name": "closeBtn",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "bg_common_bar.png",
+              "Plist": "ui_general.plist"
+            },
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 17,
+            "Scale9OriginY": 16,
+            "Scale9Width": 20,
+            "Scale9Height": 17,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 667.0,
+              "Y": 402.975
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5373
+            },
+            "PreSize": {
+              "X": 0.4378,
+              "Y": 0.6413
+            },
+            "LeftMargin": 375.0,
+            "RightMargin": 375.0,
+            "TopMargin": 106.525,
+            "BottomMargin": 162.475,
+            "Tag": 1804,
+            "Children": [
+              {
+                "FontSize": 26,
+                "LabelText": "姓名必须与提现银行卡姓名保持一致",
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 292.0,
+                  "Y": 448.36
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 244,
+                  "G": 6,
+                  "B": 9
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.9321
+                },
+                "PreSize": {
+                  "X": 0.7123,
+                  "Y": 0.0541
+                },
+                "LeftMargin": 84.0,
+                "RightMargin": 84.0,
+                "TopMargin": 19.64,
+                "BottomMargin": 435.36,
+                "Tag": 1805,
+                "ActionTag": -481727717,
+                "Size": {
+                  "X": 416.0,
+                  "Y": 26.0
+                },
+                "Name": "verifyTipsText",
+                "ctype": "TextObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "ui_source/ui_general/bg_common_bottom_frame.png",
+                  "Plist": ""
+                },
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 9,
+                "Scale9OriginY": 10,
+                "Scale9Width": 60,
+                "Scale9Height": 58,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 292.0001,
+                  "Y": 331.5846
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.6894
+                },
+                "PreSize": {
+                  "X": 0.8733,
+                  "Y": 0.1767
+                },
+                "LeftMargin": 37.0001,
+                "RightMargin": 36.9999,
+                "TopMargin": 64.4154,
+                "BottomMargin": 331.5846,
+                "Tag": 1806,
+                "ActionTag": 487660348,
+                "Size": {
+                  "X": 510.0,
+                  "Y": 85.0
+                },
+                "Name": "userNameEditBoxPanel",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "ui_source/ui_general/bg_common_bottom_frame.png",
+                  "Plist": ""
+                },
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 9,
+                "Scale9OriginY": 10,
+                "Scale9Width": 60,
+                "Scale9Height": 58,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 292.0001,
+                  "Y": 233.588
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.4856
+                },
+                "PreSize": {
+                  "X": 0.8733,
+                  "Y": 0.1767
+                },
+                "LeftMargin": 37.0001,
+                "RightMargin": 36.9999,
+                "TopMargin": 162.412,
+                "BottomMargin": 233.588,
+                "Tag": 1808,
+                "ActionTag": 2048951211,
+                "Size": {
+                  "X": 510.0,
+                  "Y": 85.0
+                },
+                "Name": "userPhoneEditBoxPanel",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "ui_source/ui_general/bg_common_bottom_frame.png",
+                  "Plist": ""
+                },
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 9,
+                "Scale9OriginY": 10,
+                "Scale9Width": 60,
+                "Scale9Height": 58,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 292.0,
+                  "Y": 135.5904
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.2819
+                },
+                "PreSize": {
+                  "X": 0.8733,
+                  "Y": 0.1767
+                },
+                "LeftMargin": 37.0,
+                "RightMargin": 37.0,
+                "TopMargin": 260.4096,
+                "BottomMargin": 135.5904,
+                "Tag": 1811,
+                "ActionTag": 962700094,
+                "Size": {
+                  "X": 510.0,
+                  "Y": 85.0
+                },
+                "Name": "verfyCodeEditBoxPanel",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FontSize": 30,
+                "ButtonText": "确定",
+                "TextColor": {},
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "ui_source/ui_general/btn_common_red_n.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "ui_source/ui_general/btn_common_red_n.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "ui_source/ui_general/btn_common_red_n.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 1,
+                "Scale9Height": 8,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 292.0,
+                  "Y": 64.7921
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1347
+                },
+                "PreSize": {
+                  "X": 0.8733,
+                  "Y": 0.1767
+                },
+                "LeftMargin": 37.0,
+                "RightMargin": 37.0,
+                "TopMargin": 373.7079,
+                "BottomMargin": 22.2921,
+                "Tag": 1813,
+                "ActionTag": -161426543,
+                "Size": {
+                  "X": 510.0,
+                  "Y": 85.0
+                },
+                "Name": "sureBtn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 22,
+                "ButtonText": "获取验证码",
+                "TextColor": {},
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "ui_source/ui_general/btn_common_blue_n.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "ui_source/ui_general/btn_common_blue_n.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "ui_source/ui_general/btn_common_blue_n.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 1,
+                "Scale9Height": 9,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5024,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 448.3315,
+                  "Y": 275.48
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7677,
+                  "Y": 0.5727
+                },
+                "PreSize": {
+                  "X": 0.274,
+                  "Y": 0.1455
+                },
+                "LeftMargin": 367.9475,
+                "RightMargin": 56.0525,
+                "TopMargin": 170.52,
+                "BottomMargin": 240.48,
+                "Tag": 1810,
+                "ActionTag": 1029577669,
+                "Size": {
+                  "X": 160.0,
+                  "Y": 70.0
+                },
+                "Name": "obtainVerfyCodeBtn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 24,
+                "LabelText": "已发送（60）",
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 448.3295,
+                  "Y": 275.48
+                },
+                "Scale": {
+                  "ScaleX": 0.8379,
+                  "ScaleY": 0.868
+                },
+                "CColor": {
+                  "R": 127,
+                  "G": 127,
+                  "B": 127
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7677,
+                  "Y": 0.5727
+                },
+                "PreSize": {
+                  "X": 0.2466,
+                  "Y": 0.0499
+                },
+                "LeftMargin": 376.3295,
+                "RightMargin": 63.6705,
+                "TopMargin": 193.52,
+                "BottomMargin": 263.48,
+                "Tag": 129,
+                "ActionTag": 777908271,
+                "Size": {
+                  "X": 144.0,
+                  "Y": 24.0
+                },
+                "VisibleForFrame": false,
+                "Name": "hasSendTxt",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 277631352,
+            "Size": {
+              "X": 584.0,
+              "Y": 481.0
+            },
+            "Name": "Panel_1",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "ui_general.plist",
+        "ui_general.png",
+        "ui_source/ui_general/bg_common_bottom_frame.png",
+        "ui_source/ui_general/btn_common_blue_n.png",
+        "ui_source/ui_general/btn_common_red_n.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

@@ -1,0 +1,656 @@
+{
+  "ID": "5ce16e18-60d3-4960-bcce-6827e387479a",
+  "Version": "3.10.0.0",
+  "Name": "SetLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 90,
+        "Children": [
+          {
+            "ClipAble": false,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 237,
+              "G": 239,
+              "B": 239
+            },
+            "FirstColor": {
+              "R": 28,
+              "G": 40,
+              "B": 59
+            },
+            "EndColor": {
+              "R": 17,
+              "G": 25,
+              "B": 45
+            },
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 42,
+            "ActionTag": -446552532,
+            "Size": {
+              "X": 1334.0,
+              "Y": 750.0
+            },
+            "Name": "Panel_1",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 28,
+              "G": 30,
+              "B": 43
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 750.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 1.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 0.136
+            },
+            "BottomMargin": 648.0,
+            "Tag": 96,
+            "Children": [
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 68,
+                  "G": 123,
+                  "B": 195
+                },
+                "NormalFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "icon_common_back_new.png",
+                  "Plist": "ui_general.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 9,
+                "Scale9OriginY": 11,
+                "Scale9Width": 52,
+                "Scale9Height": 48,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 18.0,
+                  "Y": 51.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.0135,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.0525,
+                  "Y": 0.6863
+                },
+                "LeftMargin": 18.0,
+                "RightMargin": 1246.0,
+                "TopMargin": 16.0,
+                "BottomMargin": 16.0,
+                "Tag": 533,
+                "ActionTag": -1695762683,
+                "Size": {
+                  "X": 70.0,
+                  "Y": 70.0
+                },
+                "Name": "backBtn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 42,
+                "LabelText": "设置",
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 667.0,
+                  "Y": 51.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.1889,
+                  "Y": 0.4118
+                },
+                "LeftMargin": 541.0,
+                "RightMargin": 541.0,
+                "TopMargin": 30.0,
+                "BottomMargin": 30.0,
+                "Tag": 202,
+                "ActionTag": 1113329626,
+                "Size": {
+                  "X": 252.0,
+                  "Y": 42.0
+                },
+                "Name": "titleTxt",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 1095137693,
+            "Size": {
+              "X": 1334.0,
+              "Y": 102.0
+            },
+            "Name": "titlePanel",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 671.892,
+              "Y": 645.225
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5037,
+              "Y": 0.8603
+            },
+            "PreSize": {
+              "X": 0.8396,
+              "Y": 0.8267
+            },
+            "LeftMargin": 111.892,
+            "RightMargin": 102.1079,
+            "TopMargin": 104.775,
+            "BottomMargin": 25.225,
+            "Tag": 80,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "bg_common_bar.png",
+                  "Plist": "ui_general.plist"
+                },
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 13,
+                "Scale9OriginY": 12,
+                "Scale9Width": 28,
+                "Scale9Height": 25,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 1.0
+                },
+                "Position": {
+                  "X": 560.0,
+                  "Y": 600.47
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.9685
+                },
+                "PreSize": {
+                  "X": 0.9339,
+                  "Y": 0.171
+                },
+                "LeftMargin": 37.0,
+                "RightMargin": 37.0,
+                "TopMargin": 19.53,
+                "BottomMargin": 494.47,
+                "Tag": 128,
+                "Children": [
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": -15,
+                    "Scale9OriginY": -11,
+                    "Scale9Width": 30,
+                    "Scale9Height": 22,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 983.7944,
+                      "Y": 53.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.9405,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.086,
+                      "Y": 0.8491
+                    },
+                    "LeftMargin": 938.7944,
+                    "RightMargin": 17.2056,
+                    "TopMargin": 8.0,
+                    "BottomMargin": 8.0,
+                    "Tag": 85,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "PlistSubImage",
+                          "Path": "btn_set_off.png",
+                          "Plist": "ui_general.plist"
+                        },
+                        "Scale9OriginX": 18,
+                        "Scale9OriginY": 18,
+                        "Scale9Width": 20,
+                        "Scale9Height": 20,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 45.0,
+                          "Y": 45.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.6222,
+                          "Y": 0.6222
+                        },
+                        "LeftMargin": 17.0,
+                        "RightMargin": 17.0,
+                        "TopMargin": 17.0,
+                        "BottomMargin": 17.0,
+                        "Tag": 86,
+                        "ActionTag": 904088464,
+                        "Size": {
+                          "X": 56.0,
+                          "Y": 56.0
+                        },
+                        "Name": "unselected",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "PlistSubImage",
+                          "Path": "btn_set_on.png",
+                          "Plist": "ui_general.plist"
+                        },
+                        "Scale9OriginX": 18,
+                        "Scale9OriginY": 18,
+                        "Scale9Width": 20,
+                        "Scale9Height": 20,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 45.0,
+                          "Y": 45.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.6222,
+                          "Y": 0.6222
+                        },
+                        "LeftMargin": 17.0,
+                        "RightMargin": 17.0,
+                        "TopMargin": 17.0,
+                        "BottomMargin": 17.0,
+                        "Tag": 87,
+                        "ActionTag": -1609454962,
+                        "Size": {
+                          "X": 56.0,
+                          "Y": 56.0
+                        },
+                        "Name": "selected",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": -241710451,
+                    "Size": {
+                      "X": 90.0,
+                      "Y": 90.0
+                    },
+                    "Name": "soundCheckBtn",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 30,
+                    "LabelText": "音效",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 46.3378,
+                      "Y": 53.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 21,
+                      "G": 25,
+                      "B": 26
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0443,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.0574,
+                      "Y": 0.283
+                    },
+                    "LeftMargin": 46.3378,
+                    "RightMargin": 939.6622,
+                    "TopMargin": 38.0,
+                    "BottomMargin": 38.0,
+                    "Tag": 129,
+                    "ActionTag": 1283866610,
+                    "Size": {
+                      "X": 60.0,
+                      "Y": 30.0
+                    },
+                    "Name": "Text_17",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -293557191,
+                "Size": {
+                  "X": 1046.0,
+                  "Y": 106.0
+                },
+                "Name": "soundPanel",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FontSize": 30,
+                "ButtonText": "退出登录",
+                "TextColor": {},
+                "NormalFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "btn_common_red_n.png",
+                  "Plist": "ui_general.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 8,
+                "Scale9OriginY": 11,
+                "Scale9Width": 16,
+                "Scale9Height": 10,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 560.0,
+                  "Y": 53.838
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.0868
+                },
+                "PreSize": {
+                  "X": 0.4286,
+                  "Y": 0.1161
+                },
+                "LeftMargin": 320.0,
+                "RightMargin": 320.0,
+                "TopMargin": 530.162,
+                "BottomMargin": 17.838,
+                "Tag": 127,
+                "ActionTag": -158526268,
+                "Size": {
+                  "X": 480.0,
+                  "Y": 72.0
+                },
+                "Name": "loginOutBtn",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": -1610675508,
+            "Size": {
+              "X": 1120.0,
+              "Y": 620.0
+            },
+            "Name": "setPanel",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "ui_general.plist",
+        "ui_general.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

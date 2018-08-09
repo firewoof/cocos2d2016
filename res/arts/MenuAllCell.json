@@ -1,0 +1,282 @@
+{
+  "ID": "c6842b31-7f3a-4f91-a0fb-7f417bcc904e",
+  "Version": "3.10.0.0",
+  "Name": "MenuAllCell",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [
+        {
+          "StartIndex": 0,
+          "EndIndex": 0,
+          "Name": "animation0",
+          "ctype": "AnimationInfoData"
+        },
+        {
+          "StartIndex": 45,
+          "EndIndex": 45,
+          "Name": "animation1",
+          "ctype": "AnimationInfoData"
+        },
+        {
+          "StartIndex": 0,
+          "EndIndex": 20,
+          "Name": "animation2",
+          "ctype": "AnimationInfoData"
+        },
+        {
+          "StartIndex": 0,
+          "EndIndex": 45,
+          "Name": "animation3",
+          "ctype": "AnimationInfoData"
+        },
+        {
+          "StartIndex": 0,
+          "EndIndex": 45,
+          "Name": "animation4",
+          "ctype": "AnimationInfoData"
+        },
+        {
+          "StartIndex": 0,
+          "EndIndex": 30,
+          "Name": "animation5",
+          "ctype": "AnimationInfoData"
+        }
+      ],
+      "ObjectData": {
+        "Tag": 95,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "bg_left_menu.png",
+              "Plist": "ui_general.plist"
+            },
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Enable": true,
+            "Scale9OriginY": 2,
+            "Scale9Width": 354,
+            "Scale9Height": 18,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 31,
+            "ActionTag": -1016648784,
+            "Size": {
+              "X": 356.0,
+              "Y": 750.0
+            },
+            "Name": "menuPanel",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": -1,
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 32,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 672.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.896
+                },
+                "PercentWidthEnable": true,
+                "PercentWidthEnabled": true,
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 0.104
+                },
+                "HorizontalEdge": "RightEdge",
+                "VerticalEdge": "TopEdge",
+                "BottomMargin": 672.0,
+                "Tag": 33,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "icon_common_back_new.png",
+                      "Plist": "ui_general.plist"
+                    },
+                    "Scale9OriginX": 23,
+                    "Scale9OriginY": 23,
+                    "Scale9Width": 24,
+                    "Scale9Height": 24,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 56.2806,
+                      "Y": 35.6901
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.1581,
+                      "Y": 0.4576
+                    },
+                    "PreSize": {
+                      "X": 0.1966,
+                      "Y": 0.8974
+                    },
+                    "HorizontalEdge": "LeftEdge",
+                    "VerticalEdge": "TopEdge",
+                    "LeftMargin": 21.2806,
+                    "RightMargin": 264.7194,
+                    "TopMargin": 7.3099,
+                    "BottomMargin": 0.6901,
+                    "Tag": 35,
+                    "ActionTag": 1598906191,
+                    "Size": {
+                      "X": 70.0,
+                      "Y": 70.0
+                    },
+                    "Name": "closeArrow",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": -422845271,
+                "Size": {
+                  "X": 356.0,
+                  "Y": 78.0
+                },
+                "Name": "closeBtn",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": -93656233,
+            "Size": {
+              "X": 356.0,
+              "Y": 750.0
+            },
+            "Name": "bgPanel",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 356.0,
+          "Y": 750.0
+        },
+        "Name": "cashEffect",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "ui_general.plist",
+        "ui_general.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

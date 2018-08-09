@@ -1,0 +1,285 @@
+{
+  "ID": "10e330e1-48c7-46bd-bd3a-bd86f846aa8a",
+  "Version": "3.10.0.0",
+  "Name": "RoomManageGBCell",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 19,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0048,
+              "Y": 1.0
+            },
+            "RightMargin": -5.0,
+            "Tag": 46,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "bg_common_bar.png",
+                  "Plist": "ui_general.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 21,
+                "Scale9OriginY": 23,
+                "Scale9Width": 8,
+                "Scale9Height": 6,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 527.5,
+                  "Y": 40.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 20,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "icon_arrow_right.png",
+                      "Plist": "ui_general.plist"
+                    },
+                    "Scale9OriginX": 5,
+                    "Scale9OriginY": 8,
+                    "Scale9Width": 6,
+                    "Scale9Height": 10,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 1015.0,
+                      "Y": 40.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.9621,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.0152,
+                      "Y": 0.325
+                    },
+                    "LeftMargin": 1007.0,
+                    "RightMargin": 32.0,
+                    "TopMargin": 27.0,
+                    "BottomMargin": 27.0,
+                    "Tag": 22,
+                    "ActionTag": 1811277327,
+                    "Size": {
+                      "X": 16.0,
+                      "Y": 26.0
+                    },
+                    "Name": "arrowRight",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 24,
+                    "LabelText": "你妮妮妮妮妮妮妮妮妮妮妮妮您妮妮妮妮妮妮妮妮妮妮妮妮妮老司机带飞非非非",
+                    "HorizontalAlignmentType": "HT_Right",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 990.0,
+                      "Y": 40.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 143,
+                      "G": 162,
+                      "B": 176
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.9384,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.7962,
+                      "Y": 0.3
+                    },
+                    "LeftMargin": 150.0,
+                    "RightMargin": 65.0,
+                    "TopMargin": 28.0,
+                    "BottomMargin": 28.0,
+                    "Tag": 19,
+                    "ActionTag": 1074283040,
+                    "Size": {
+                      "X": 840.0,
+                      "Y": 24.0
+                    },
+                    "Name": "textContent",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 24,
+                    "LabelText": "邀请权限        ",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 110.0,
+                      "Y": 40.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 21,
+                      "G": 25,
+                      "B": 26
+                    },
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.1043,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.182,
+                      "Y": 0.3
+                    },
+                    "LeftMargin": 14.0,
+                    "RightMargin": 849.0,
+                    "TopMargin": 28.0,
+                    "BottomMargin": 28.0,
+                    "Tag": 34,
+                    "ActionTag": 1872394681,
+                    "Size": {
+                      "X": 192.0,
+                      "Y": 24.0
+                    },
+                    "Name": "textTitle",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 411882827,
+                "Size": {
+                  "X": 1055.0,
+                  "Y": 80.0
+                },
+                "Name": "bgImage",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 1140149061,
+            "Size": {
+              "X": 1055.0,
+              "Y": 80.0
+            },
+            "Name": "panelTouch",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1050.0,
+          "Y": 80.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "ui_general.plist",
+        "ui_general.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

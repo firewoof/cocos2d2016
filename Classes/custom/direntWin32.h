@@ -1,0 +1,43 @@
+// dirent.h
+#ifndef _SYS_DIRENT_H
+#define _SYS_DIRENT_H
+
+#undef UNICODE
+#include <windows.h>
+#include "direct.h"
+#include <tchar.h>
+#include <wchar.h>
+#include <stdio.h>     
+#define mkdir(n, m) _mkdir(n)
+
+typedef struct _dirdesc {
+    int     dd_fd;      /** file descriptor associated with directory */
+    long    dd_loc;     /** offset in current buffer */
+    long    dd_size;    /** amount of data returned by getdirentries */
+    char    *dd_buf;    /** data buffer */
+    int     dd_len;     /** size of data buffer */
+    long    dd_seek;    /** magic cookie returned by getdirentries */
+} DIR;
+
+# define __dirfd(dp)    ((dp)->dd_fd)
+#define S_ISREG(m) (((m) & 0170000) == (0100000))   
+#define S_ISDIR(m) (((m) & 0170000) == (0040000))  
+
+DIR *opendir (const char *);
+struct dirent *readdir (DIR *);
+void rewinddir (DIR *);
+int closedir (DIR *);
+
+#include <sys/types.h>
+
+struct dirent
+{
+     long d_ino;              /* inode number*/
+     off_t d_off;             /* offset to this dirent*/
+     unsigned short d_reclen; /* length of this d_name*/
+     unsigned char d_type;    /* the type of d_name*/
+     char d_name[1];          /* file name (null-terminated)*/
+};
+
+
+#endif

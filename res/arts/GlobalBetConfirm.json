@@ -1,0 +1,1037 @@
+{
+  "ID": "efd5b1b7-c3ae-452c-82fd-801a123cd3c8",
+  "Version": "3.10.0.0",
+  "Name": "GlobalBetConfirm",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 60,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 210.0,
+              "Y": 116.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 97,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 210.0,
+                  "Y": 193.2068
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.8328
+                },
+                "PreSize": {
+                  "X": 0.8024,
+                  "Y": 0.1509
+                },
+                "LeftMargin": 41.5,
+                "RightMargin": 41.5,
+                "TopMargin": 3.7932,
+                "BottomMargin": 193.2068,
+                "Tag": 98,
+                "Children": [
+                  {
+                    "FontSize": 24,
+                    "LabelText": "投资产品",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 11.5033,
+                      "Y": 19.714
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 117,
+                      "G": 120,
+                      "B": 135
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0341,
+                      "Y": 0.5633
+                    },
+                    "PreSize": {
+                      "X": 0.2849,
+                      "Y": 0.6857
+                    },
+                    "LeftMargin": 11.5033,
+                    "RightMargin": 229.4967,
+                    "TopMargin": 3.286,
+                    "BottomMargin": 7.714,
+                    "Tag": 99,
+                    "ActionTag": 433355741,
+                    "Size": {
+                      "X": 96.0,
+                      "Y": 24.0
+                    },
+                    "Name": "Text_5",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 24,
+                    "LabelText": "产品/名称位",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 191.5916,
+                      "Y": 19.7451
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 21,
+                      "G": 25,
+                      "B": 26
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5685,
+                      "Y": 0.5641
+                    },
+                    "PreSize": {
+                      "X": 0.3917,
+                      "Y": 0.6857
+                    },
+                    "LeftMargin": 191.5916,
+                    "RightMargin": 13.4084,
+                    "TopMargin": 3.2549,
+                    "BottomMargin": 7.7451,
+                    "Tag": 100,
+                    "ActionTag": 636527291,
+                    "Size": {
+                      "X": 132.0,
+                      "Y": 24.0
+                    },
+                    "Name": "productNameText",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -176027598,
+                "Size": {
+                  "X": 337.0,
+                  "Y": 35.0
+                },
+                "Name": "Panel_5",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 210.0,
+                  "Y": 155.3628
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.6697
+                },
+                "PreSize": {
+                  "X": 0.8024,
+                  "Y": 0.1509
+                },
+                "LeftMargin": 41.5,
+                "RightMargin": 41.5,
+                "TopMargin": 41.6372,
+                "BottomMargin": 155.3628,
+                "Tag": 101,
+                "Children": [
+                  {
+                    "FontSize": 24,
+                    "LabelText": "交易方向",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 11.5033,
+                      "Y": 19.714
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 117,
+                      "G": 120,
+                      "B": 135
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0341,
+                      "Y": 0.5633
+                    },
+                    "PreSize": {
+                      "X": 0.2849,
+                      "Y": 0.6857
+                    },
+                    "LeftMargin": 11.5033,
+                    "RightMargin": 229.4967,
+                    "TopMargin": 3.286,
+                    "BottomMargin": 7.714,
+                    "Tag": 102,
+                    "ActionTag": 2041524906,
+                    "Size": {
+                      "X": 96.0,
+                      "Y": 24.0
+                    },
+                    "Name": "Text_5",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 24,
+                    "LabelText": "涨跌",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 191.5916,
+                      "Y": 19.7451
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 0,
+                      "G": 128,
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5685,
+                      "Y": 0.5641
+                    },
+                    "PreSize": {
+                      "X": 0.1424,
+                      "Y": 0.6857
+                    },
+                    "LeftMargin": 191.5916,
+                    "RightMargin": 97.4084,
+                    "TopMargin": 3.2549,
+                    "BottomMargin": 7.7451,
+                    "Tag": 103,
+                    "ActionTag": -753772085,
+                    "Size": {
+                      "X": 48.0,
+                      "Y": 24.0
+                    },
+                    "Name": "directionText",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 1889722540,
+                "Size": {
+                  "X": 337.0,
+                  "Y": 35.0
+                },
+                "Name": "Panel_5_0",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 210.462,
+                  "Y": 117.3433
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5011,
+                  "Y": 0.5058
+                },
+                "PreSize": {
+                  "X": 0.8024,
+                  "Y": 0.1509
+                },
+                "LeftMargin": 41.962,
+                "RightMargin": 41.038,
+                "TopMargin": 79.6567,
+                "BottomMargin": 117.3433,
+                "Tag": 104,
+                "Children": [
+                  {
+                    "FontSize": 24,
+                    "LabelText": "交易金额",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 11.5033,
+                      "Y": 19.714
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 117,
+                      "G": 120,
+                      "B": 135
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0341,
+                      "Y": 0.5633
+                    },
+                    "PreSize": {
+                      "X": 0.2849,
+                      "Y": 0.6857
+                    },
+                    "LeftMargin": 11.5033,
+                    "RightMargin": 229.4967,
+                    "TopMargin": 3.286,
+                    "BottomMargin": 7.714,
+                    "Tag": 105,
+                    "ActionTag": -268559620,
+                    "Size": {
+                      "X": 96.0,
+                      "Y": 24.0
+                    },
+                    "Name": "Text_5",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 24,
+                    "LabelText": "5000元*20手",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 191.5916,
+                      "Y": 19.7451
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 21,
+                      "G": 25,
+                      "B": 26
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5685,
+                      "Y": 0.5641
+                    },
+                    "PreSize": {
+                      "X": 0.3917,
+                      "Y": 0.6857
+                    },
+                    "LeftMargin": 191.5916,
+                    "RightMargin": 13.4084,
+                    "TopMargin": 3.2549,
+                    "BottomMargin": 7.7451,
+                    "Tag": 106,
+                    "ActionTag": -435212199,
+                    "Size": {
+                      "X": 132.0,
+                      "Y": 24.0
+                    },
+                    "Name": "betAmountText",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 698760943,
+                "Size": {
+                  "X": 337.0,
+                  "Y": 35.0
+                },
+                "Name": "Panel_5_1",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 210.0,
+                  "Y": 79.7167
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.3436
+                },
+                "PreSize": {
+                  "X": 0.8024,
+                  "Y": 0.1509
+                },
+                "LeftMargin": 41.5,
+                "RightMargin": 41.5,
+                "TopMargin": 117.2833,
+                "BottomMargin": 79.7167,
+                "Tag": 107,
+                "Children": [
+                  {
+                    "FontSize": 24,
+                    "LabelText": "管理费",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 11.5033,
+                      "Y": 19.714
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 117,
+                      "G": 120,
+                      "B": 135
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0341,
+                      "Y": 0.5633
+                    },
+                    "PreSize": {
+                      "X": 0.2136,
+                      "Y": 0.6857
+                    },
+                    "LeftMargin": 11.5033,
+                    "RightMargin": 253.4967,
+                    "TopMargin": 3.286,
+                    "BottomMargin": 7.714,
+                    "Tag": 108,
+                    "ActionTag": 2140949685,
+                    "Size": {
+                      "X": 72.0,
+                      "Y": 24.0
+                    },
+                    "Name": "Text_5",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 24,
+                    "LabelText": "000000000",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 191.5916,
+                      "Y": 19.7451
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 21,
+                      "G": 25,
+                      "B": 26
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5685,
+                      "Y": 0.5641
+                    },
+                    "PreSize": {
+                      "X": 0.3205,
+                      "Y": 0.6857
+                    },
+                    "LeftMargin": 191.5916,
+                    "RightMargin": 37.4084,
+                    "TopMargin": 3.2549,
+                    "BottomMargin": 7.7451,
+                    "Tag": 109,
+                    "ActionTag": -1563651276,
+                    "Size": {
+                      "X": 108.0,
+                      "Y": 24.0
+                    },
+                    "Name": "managerFeeText",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 790357529,
+                "Size": {
+                  "X": 337.0,
+                  "Y": 35.0
+                },
+                "Name": "Panel_5_2",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 210.0,
+                  "Y": 42.5356
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1833
+                },
+                "PreSize": {
+                  "X": 0.8024,
+                  "Y": 0.1509
+                },
+                "LeftMargin": 41.5,
+                "RightMargin": 41.5,
+                "TopMargin": 154.4644,
+                "BottomMargin": 42.5356,
+                "Tag": 110,
+                "Children": [
+                  {
+                    "FontSize": 24,
+                    "LabelText": "止盈止损点",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 11.5033,
+                      "Y": 19.714
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 117,
+                      "G": 120,
+                      "B": 135
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0341,
+                      "Y": 0.5633
+                    },
+                    "PreSize": {
+                      "X": 0.3561,
+                      "Y": 0.6857
+                    },
+                    "LeftMargin": 11.5033,
+                    "RightMargin": 205.4967,
+                    "TopMargin": 3.286,
+                    "BottomMargin": 7.714,
+                    "Tag": 111,
+                    "ActionTag": 288656249,
+                    "Size": {
+                      "X": 120.0,
+                      "Y": 24.0
+                    },
+                    "Name": "Text_5",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 24,
+                    "LabelText": "000",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 191.5916,
+                      "Y": 19.7451
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 21,
+                      "G": 25,
+                      "B": 26
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5685,
+                      "Y": 0.5641
+                    },
+                    "PreSize": {
+                      "X": 0.1068,
+                      "Y": 0.6857
+                    },
+                    "LeftMargin": 191.5916,
+                    "RightMargin": 109.4084,
+                    "TopMargin": 3.2549,
+                    "BottomMargin": 7.7451,
+                    "Tag": 112,
+                    "ActionTag": 1202298608,
+                    "Size": {
+                      "X": 36.0,
+                      "Y": 24.0
+                    },
+                    "Name": "touchOffsetText",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 603430371,
+                "Size": {
+                  "X": 337.0,
+                  "Y": 35.0
+                },
+                "Name": "Panel_5_3",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 210.0,
+                  "Y": 5.0486
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.0218
+                },
+                "PreSize": {
+                  "X": 0.8024,
+                  "Y": 0.1509
+                },
+                "LeftMargin": 41.5,
+                "RightMargin": 41.5,
+                "TopMargin": 191.9514,
+                "BottomMargin": 5.0486,
+                "Tag": 113,
+                "Children": [
+                  {
+                    "FontSize": 24,
+                    "LabelText": "潜在收益",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 11.5033,
+                      "Y": 19.714
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 117,
+                      "G": 120,
+                      "B": 135
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0341,
+                      "Y": 0.5633
+                    },
+                    "PreSize": {
+                      "X": 0.2849,
+                      "Y": 0.6857
+                    },
+                    "LeftMargin": 11.5033,
+                    "RightMargin": 229.4967,
+                    "TopMargin": 3.286,
+                    "BottomMargin": 7.714,
+                    "Tag": 114,
+                    "ActionTag": 1450139301,
+                    "Size": {
+                      "X": 96.0,
+                      "Y": 24.0
+                    },
+                    "Name": "potentialIncomeTitle",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 24,
+                    "LabelText": "000000000元",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 191.5916,
+                      "Y": 19.7451
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 244,
+                      "G": 130,
+                      "B": 31
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5685,
+                      "Y": 0.5641
+                    },
+                    "PreSize": {
+                      "X": 0.3917,
+                      "Y": 0.6857
+                    },
+                    "LeftMargin": 191.5916,
+                    "RightMargin": 13.4084,
+                    "TopMargin": 3.2549,
+                    "BottomMargin": 7.7451,
+                    "Tag": 115,
+                    "ActionTag": 584645748,
+                    "Size": {
+                      "X": 132.0,
+                      "Y": 24.0
+                    },
+                    "Name": "potentialIncomeText",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -753044438,
+                "Size": {
+                  "X": 337.0,
+                  "Y": 35.0
+                },
+                "Name": "Panel_5_4",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": 1259881295,
+            "Size": {
+              "X": 420.0,
+              "Y": 232.0
+            },
+            "Name": "betConfirmPanel",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 420.0,
+          "Y": 232.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

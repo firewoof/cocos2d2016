@@ -1,4 +1,5 @@
 /**
+ * tab切换功能控件
  * Created by Administrator on 2016/5/6.
  */
 var LAYOUT_HORIZONTAL = 0;

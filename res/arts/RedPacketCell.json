@@ -1,0 +1,555 @@
+{
+  "ID": "c321bb9a-8cc0-4090-9e05-1e05502248b0",
+  "Version": "3.10.0.0",
+  "Name": "RedPacketCell",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 54,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PercentHeightEnable": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 0.3653,
+              "Y": 1.0
+            },
+            "RightMargin": 212.0,
+            "Tag": 55,
+            "Children": [
+              {
+                "FontSize": 16,
+                "LabelText": "今天",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 84.6783,
+                  "Y": 40.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 143,
+                  "G": 162,
+                  "B": 176
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6941,
+                  "Y": 0.6061
+                },
+                "PreSize": {
+                  "X": 0.2623,
+                  "Y": 0.2424
+                },
+                "LeftMargin": 68.6783,
+                "RightMargin": 21.3217,
+                "TopMargin": 18.0,
+                "BottomMargin": 32.0,
+                "Tag": 58,
+                "ActionTag": 132302400,
+                "Size": {
+                  "X": 32.0,
+                  "Y": 16.0
+                },
+                "Name": "dayLabel",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 16,
+                "LabelText": "00:00:00",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 84.382,
+                  "Y": 20.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 21,
+                  "G": 25,
+                  "B": 26
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6917,
+                  "Y": 0.303
+                },
+                "PreSize": {
+                  "X": 0.5246,
+                  "Y": 0.2424
+                },
+                "LeftMargin": 52.382,
+                "RightMargin": 5.618,
+                "TopMargin": 38.0,
+                "BottomMargin": 12.0,
+                "Tag": 59,
+                "ActionTag": 317207507,
+                "Size": {
+                  "X": 64.0,
+                  "Y": 16.0
+                },
+                "Name": "timeLabel",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 523510783,
+            "Size": {
+              "X": 122.0,
+              "Y": 66.0
+            },
+            "Name": "panel1",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "icon_hongbao.png",
+              "Plist": "ui_general.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 24.0297,
+              "Y": 33.0
+            },
+            "Scale": {
+              "ScaleX": 0.88,
+              "ScaleY": 0.88
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.0719,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.1617,
+              "Y": 0.9091
+            },
+            "LeftMargin": -2.9703,
+            "RightMargin": 282.9703,
+            "TopMargin": 3.0,
+            "BottomMargin": 3.0,
+            "Tag": 56,
+            "ActionTag": 228690779,
+            "Size": {
+              "X": 54.0,
+              "Y": 60.0
+            },
+            "Name": "image",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "ClipAble": false,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentWidthEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 0.0152
+            },
+            "TopMargin": 65.0,
+            "Tag": 57,
+            "ActionTag": 605342688,
+            "Size": {
+              "X": 334.0,
+              "Y": 1.0
+            },
+            "Name": "line",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 145.8912,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PrePosition": {
+              "X": 0.4368,
+              "Y": 0.0
+            },
+            "PercentHeightEnable": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 0.2844,
+              "Y": 1.0
+            },
+            "LeftMargin": 145.8912,
+            "RightMargin": 93.1088,
+            "Tag": 60,
+            "Children": [
+              {
+                "FontSize": 16,
+                "LabelText": "红包总额",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 47.5,
+                  "Y": 40.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 143,
+                  "G": 162,
+                  "B": 176
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.6061
+                },
+                "PreSize": {
+                  "X": 0.6737,
+                  "Y": 0.2424
+                },
+                "LeftMargin": 15.5,
+                "RightMargin": 15.5,
+                "TopMargin": 18.0,
+                "BottomMargin": 32.0,
+                "Tag": 61,
+                "ActionTag": -292039446,
+                "Size": {
+                  "X": 64.0,
+                  "Y": 16.0
+                },
+                "Name": "moneyLabel",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 16,
+                "LabelText": "999999元",
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 47.5,
+                  "Y": 20.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 21,
+                  "G": 25,
+                  "B": 26
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.303
+                },
+                "PreSize": {
+                  "X": 0.6737,
+                  "Y": 0.2424
+                },
+                "LeftMargin": 15.5,
+                "RightMargin": 15.5,
+                "TopMargin": 38.0,
+                "BottomMargin": 12.0,
+                "Tag": 62,
+                "ActionTag": 667128902,
+                "Size": {
+                  "X": 64.0,
+                  "Y": 16.0
+                },
+                "Name": "moneySum",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -379473988,
+            "Size": {
+              "X": 95.0,
+              "Y": 66.0
+            },
+            "Name": "panel2",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 1.0
+            },
+            "Position": {
+              "X": 334.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 1.0,
+              "Y": 0.0
+            },
+            "PercentHeightEnable": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 0.2395,
+              "Y": 1.0
+            },
+            "LeftMargin": 254.0,
+            "Tag": 65,
+            "Children": [
+              {
+                "FontSize": 16,
+                "LabelText": "抢光了",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 1.0
+                },
+                "Position": {
+                  "X": 80.0,
+                  "Y": 12.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 21,
+                  "G": 25,
+                  "B": 26
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 1.0,
+                  "Y": 0.1818
+                },
+                "PreSize": {
+                  "X": 0.6,
+                  "Y": 0.2424
+                },
+                "LeftMargin": 32.0,
+                "TopMargin": 38.0,
+                "BottomMargin": 12.0,
+                "Tag": 66,
+                "ActionTag": -1254260890,
+                "Size": {
+                  "X": 48.0,
+                  "Y": 16.0
+                },
+                "Name": "moneyOverLabel",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 1038575660,
+            "Size": {
+              "X": 80.0,
+              "Y": 66.0
+            },
+            "Name": "panel3",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 334.0,
+          "Y": 66.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "ui_general.plist",
+        "ui_general.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

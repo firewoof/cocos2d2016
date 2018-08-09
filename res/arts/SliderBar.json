@@ -1,0 +1,447 @@
+{
+  "ID": "286684e2-60ea-41a2-a34b-adb81625a007",
+  "Version": "3.10.0.0",
+  "Name": "SliderBar",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 125,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 7.7081,
+              "Y": 115.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.2202,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.1714,
+              "Y": 0.7478
+            },
+            "LeftMargin": 4.7081,
+            "RightMargin": 24.2919,
+            "TopMargin": 29.0,
+            "BottomMargin": 29.0,
+            "Tag": 121,
+            "Children": [
+              {
+                "ProgressInfo": 100,
+                "ImageFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "bar_fall.png",
+                  "Plist": "ui_general.plist"
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 3.0,
+                  "Y": 86.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "RotationSkewX": 90.0,
+                "RotationSkewY": 90.0,
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 28.6667,
+                  "Y": 0.0349
+                },
+                "LeftMargin": -83.0,
+                "RightMargin": -83.0,
+                "TopMargin": 83.0,
+                "BottomMargin": 83.0,
+                "Tag": 127,
+                "ActionTag": 2125002063,
+                "Size": {
+                  "X": 172.0,
+                  "Y": 6.0
+                },
+                "Name": "loadingBarFall",
+                "ctype": "LoadingBarObjectData"
+              },
+              {
+                "ProgressInfo": 50,
+                "ImageFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "bar_rise.png",
+                  "Plist": "ui_general.plist"
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 3.012,
+                  "Y": 86.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "RotationSkewX": -90.0,
+                "RotationSkewY": -90.0,
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.502,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 28.6667,
+                  "Y": 0.0349
+                },
+                "LeftMargin": -82.988,
+                "RightMargin": -83.012,
+                "TopMargin": 83.0,
+                "BottomMargin": 83.0,
+                "Tag": 115,
+                "ActionTag": 1522019415,
+                "Size": {
+                  "X": 172.0,
+                  "Y": 6.0
+                },
+                "Name": "loadingBarRise",
+                "ctype": "LoadingBarObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "bar_middle.png",
+                  "Plist": "ui_general.plist"
+                },
+                "Scale9OriginX": 1,
+                "Scale9OriginY": 1,
+                "Scale9Width": 2,
+                "Scale9Height": 13,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 3.0,
+                  "Y": 86.0
+                },
+                "Scale": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "RotationSkewX": 90.0,
+                "RotationSkewY": 90.0,
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.6667,
+                  "Y": 0.091
+                },
+                "LeftMargin": 1.0,
+                "RightMargin": 1.0,
+                "TopMargin": 78.1778,
+                "BottomMargin": 78.1778,
+                "Tag": 116,
+                "ActionTag": 1267010771,
+                "Size": {
+                  "X": 4.0,
+                  "Y": 15.6443
+                },
+                "Name": "slideCursor",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -1326574553,
+            "Size": {
+              "X": 6.0,
+              "Y": 172.0
+            },
+            "Name": "barPanel",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FontSize": 20,
+            "LabelText": "100%",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1.0753,
+              "Y": 217.0764
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 46,
+              "G": 171,
+              "B": 67
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0307,
+              "Y": 0.9438
+            },
+            "PreSize": {
+              "X": 1.1429,
+              "Y": 0.087
+            },
+            "VerticalEdge": "TopEdge",
+            "LeftMargin": 1.0753,
+            "RightMargin": -6.0753,
+            "TopMargin": 2.9236,
+            "BottomMargin": 207.0764,
+            "Tag": 117,
+            "ActionTag": 1125031507,
+            "Size": {
+              "X": 40.0,
+              "Y": 20.0
+            },
+            "Name": "fallPercentText",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 20,
+            "LabelText": "100%",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 2.2294,
+              "Y": 13.0344
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 217,
+              "G": 73,
+              "B": 47
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0637,
+              "Y": 0.0567
+            },
+            "PreSize": {
+              "X": 1.1429,
+              "Y": 0.087
+            },
+            "VerticalEdge": "BottomEdge",
+            "LeftMargin": 2.2294,
+            "RightMargin": -7.2294,
+            "TopMargin": 206.9656,
+            "BottomMargin": 3.0344,
+            "Tag": 118,
+            "ActionTag": 758122664,
+            "Size": {
+              "X": 40.0,
+              "Y": 20.0
+            },
+            "Name": "risePercentText",
+            "ctype": "TextObjectData"
+          },
+          {
+            "IsCustomSize": true,
+            "FontSize": 20,
+            "LabelText": "买涨",
+            "VerticalAlignmentType": "VT_Bottom",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5
+            },
+            "Position": {
+              "X": 23.22,
+              "Y": 30.5579
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 117,
+              "G": 120,
+              "B": 135
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6634,
+              "Y": 0.1329
+            },
+            "PreSize": {
+              "X": 0.6,
+              "Y": 0.2174
+            },
+            "VerticalEdge": "BottomEdge",
+            "LeftMargin": 12.72,
+            "RightMargin": 1.28,
+            "TopMargin": 149.4421,
+            "BottomMargin": 30.5579,
+            "Tag": 119,
+            "ActionTag": 1712960324,
+            "Size": {
+              "X": 21.0,
+              "Y": 50.0
+            },
+            "Name": "riseTitle",
+            "ctype": "TextObjectData"
+          },
+          {
+            "IsCustomSize": true,
+            "FontSize": 20,
+            "LabelText": "买跌",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 24.3372,
+              "Y": 199.6687
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 117,
+              "G": 120,
+              "B": 135
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6953,
+              "Y": 0.8681
+            },
+            "PreSize": {
+              "X": 0.6,
+              "Y": 0.2174
+            },
+            "VerticalEdge": "TopEdge",
+            "LeftMargin": 13.8372,
+            "RightMargin": 0.1628,
+            "TopMargin": 30.3313,
+            "BottomMargin": 149.6687,
+            "Tag": 120,
+            "ActionTag": 1081565098,
+            "Size": {
+              "X": 21.0,
+              "Y": 50.0
+            },
+            "Name": "fallTitle",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 35.0,
+          "Y": 230.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "ui_general.plist",
+        "ui_general.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

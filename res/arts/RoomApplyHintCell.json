@@ -1,0 +1,339 @@
+{
+  "ID": "d3e17165-a7f5-45b1-8c1a-eba8f1b7ddee",
+  "Version": "3.10.0.0",
+  "Name": "RoomApplyHintCell",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 102,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 67,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 103,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "bg_common_bar.png",
+                      "Plist": "ui_general.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 17,
+                    "Scale9OriginY": 16,
+                    "Scale9Width": 20,
+                    "Scale9Height": 17,
+                    "AnchorPoint": {
+                      "ScaleY": 1.0
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 90.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 1.0
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 0.8778,
+                      "Y": 1.0
+                    },
+                    "RightMargin": 109.98,
+                    "Tag": 104,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "PlistSubImage",
+                          "Path": "btn_common_green_n.png",
+                          "Plist": "ui_general.plist"
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 10,
+                        "Scale9OriginY": 10,
+                        "Scale9Width": 12,
+                        "Scale9Height": 12,
+                        "AnchorPoint": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 766.3194,
+                          "Y": 45.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.97,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.2152,
+                          "Y": 0.7778
+                        },
+                        "LeftMargin": 596.3194,
+                        "RightMargin": 23.7006,
+                        "TopMargin": 10.0,
+                        "BottomMargin": 10.0,
+                        "Tag": 105,
+                        "Children": [
+                          {
+                            "FontSize": 30,
+                            "LabelText": "同意装逼",
+                            "HorizontalAlignmentType": "HT_Center",
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 85.0,
+                              "Y": 35.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.5
+                            },
+                            "PreSize": {
+                              "X": 0.7059,
+                              "Y": 0.4286
+                            },
+                            "LeftMargin": 25.0,
+                            "RightMargin": 25.0,
+                            "TopMargin": 20.0,
+                            "BottomMargin": 20.0,
+                            "Tag": 106,
+                            "ActionTag": -567926981,
+                            "Size": {
+                              "X": 120.0,
+                              "Y": 30.0
+                            },
+                            "Name": "textConfirm",
+                            "ctype": "TextObjectData"
+                          }
+                        ],
+                        "ActionTag": -1968942881,
+                        "Size": {
+                          "X": 170.0,
+                          "Y": 70.0
+                        },
+                        "Name": "btnConfirm",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": 1442932965,
+                    "Size": {
+                      "X": 790.02,
+                      "Y": 90.0
+                    },
+                    "Name": "imageHall",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "btn_close.png",
+                      "Plist": "ui_general.plist"
+                    },
+                    "Scale9OriginX": 17,
+                    "Scale9OriginY": 17,
+                    "Scale9Width": 18,
+                    "Scale9Height": 18,
+                    "AnchorPoint": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 900.0,
+                      "Y": 45.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 1.0,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.0578,
+                      "Y": 0.5778
+                    },
+                    "LeftMargin": 848.0,
+                    "TopMargin": 19.0,
+                    "BottomMargin": 19.0,
+                    "Tag": 108,
+                    "ActionTag": -435385710,
+                    "Size": {
+                      "X": 52.0,
+                      "Y": 52.0
+                    },
+                    "Name": "imageClose",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 1479158183,
+                "Size": {
+                  "X": 900.0,
+                  "Y": 90.0
+                },
+                "Name": "panelApplyHint",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": 639607193,
+            "Size": {
+              "X": 900.0,
+              "Y": 90.0
+            },
+            "Name": "Panel_7",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 900.0,
+          "Y": 90.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "ui_general.plist",
+        "ui_general.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

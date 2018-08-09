@@ -1,0 +1,362 @@
+{
+  "ID": "14254345-6931-4944-b039-ffbf4554d51f",
+  "Version": "3.10.0.0",
+  "Name": "AssistantAvatar",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 110,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 127,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Default",
+                  "Path": "Default/ImageFile.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 15,
+                "Scale9Width": 16,
+                "Scale9Height": 16,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 94.0,
+                  "Y": 125.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.2447,
+                  "Y": 0.1833
+                },
+                "LeftMargin": 71.0,
+                "RightMargin": 71.0,
+                "TopMargin": 102.5,
+                "BottomMargin": 102.5,
+                "Tag": 112,
+                "Children": [
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "TouchEnable": true,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 169.4008,
+                      "Y": 157.1638
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 3.6826,
+                      "Y": 3.4166
+                    },
+                    "PreSize": {
+                      "X": 1.7651,
+                      "Y": 1.6248
+                    },
+                    "LeftMargin": 169.4008,
+                    "RightMargin": -204.5935,
+                    "TopMargin": -185.9042,
+                    "BottomMargin": 157.1638,
+                    "Tag": 116,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "PlistSubImage",
+                          "Path": "common_helper_talk_bubble.png",
+                          "Plist": "ui_general.plist"
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 66.6366,
+                          "Y": 34.5937
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.8207,
+                          "Y": 0.4629
+                        },
+                        "PreSize": {
+                          "X": 0.4188,
+                          "Y": 0.5887
+                        },
+                        "LeftMargin": 49.6366,
+                        "RightMargin": -2.4439,
+                        "TopMargin": 18.1467,
+                        "BottomMargin": 12.5937,
+                        "Tag": 113,
+                        "ActionTag": 379169901,
+                        "Size": {
+                          "X": 34.0,
+                          "Y": 44.0
+                        },
+                        "Name": "common_helper_talk_bubble_2",
+                        "ctype": "SpriteObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "PlistSubImage",
+                          "Path": "common_helper_talk_bubble.png",
+                          "Plist": "ui_general.plist"
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 32.3965,
+                          "Y": 24.713
+                        },
+                        "Scale": {
+                          "ScaleX": 0.7,
+                          "ScaleY": 0.7
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.399,
+                          "Y": 0.3307
+                        },
+                        "PreSize": {
+                          "X": 0.4188,
+                          "Y": 0.5887
+                        },
+                        "LeftMargin": 15.3965,
+                        "RightMargin": 31.7962,
+                        "TopMargin": 28.0274,
+                        "BottomMargin": 2.713,
+                        "Tag": 114,
+                        "ActionTag": -931821692,
+                        "Size": {
+                          "X": 34.0,
+                          "Y": 44.0
+                        },
+                        "Name": "common_helper_talk_bubble_2_0",
+                        "ctype": "SpriteObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "PlistSubImage",
+                          "Path": "common_helper_talk_bubble.png",
+                          "Plist": "ui_general.plist"
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 9.0262,
+                          "Y": 15.0153
+                        },
+                        "Scale": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.1112,
+                          "Y": 0.2009
+                        },
+                        "PreSize": {
+                          "X": 0.4188,
+                          "Y": 0.5887
+                        },
+                        "LeftMargin": -7.9738,
+                        "RightMargin": 55.1665,
+                        "TopMargin": 37.7251,
+                        "BottomMargin": -6.9847,
+                        "Tag": 115,
+                        "ActionTag": -942830608,
+                        "Size": {
+                          "X": 34.0,
+                          "Y": 44.0
+                        },
+                        "Name": "common_helper_talk_bubble_2_0_0",
+                        "ctype": "SpriteObjectData"
+                      }
+                    ],
+                    "ActionTag": -249234905,
+                    "Size": {
+                      "X": 81.1927,
+                      "Y": 74.7404
+                    },
+                    "Name": "bubblePanel",
+                    "ctype": "PanelObjectData"
+                  }
+                ],
+                "ActionTag": 94632203,
+                "Size": {
+                  "X": 46.0,
+                  "Y": 46.0
+                },
+                "Name": "portrait",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "common_helper_talk_box.png",
+                  "Plist": "ui_general.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 17,
+                "Scale9OriginY": 17,
+                "Scale9Width": 18,
+                "Scale9Height": 18,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 260.604,
+                  "Y": 171.8366
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.3862,
+                  "Y": 0.6846
+                },
+                "PreSize": {
+                  "X": 1.3298,
+                  "Y": 0.5976
+                },
+                "LeftMargin": 260.604,
+                "RightMargin": -322.604,
+                "TopMargin": 4.1634,
+                "BottomMargin": 96.8366,
+                "Tag": 121,
+                "ActionTag": 939402037,
+                "Size": {
+                  "X": 250.0,
+                  "Y": 150.0
+                },
+                "Name": "bgMessageBox",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 587308745,
+            "Size": {
+              "X": 188.0,
+              "Y": 251.0
+            },
+            "Name": "portraitPanel",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 188.0,
+          "Y": 251.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "Default/ImageFile.png",
+        "ui_general.plist",
+        "ui_general.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

@@ -1,0 +1,1192 @@
+{
+  "ID": "34fdfb52-32dc-41e8-8463-c228fbef4d32",
+  "Version": "3.10.0.0",
+  "Name": "BetDetail",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 125,
+        "Children": [
+          {
+            "ClipAble": false,
+            "SingleColor": {
+              "R": 77,
+              "G": 77,
+              "B": 77
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": -13,
+            "Scale9OriginY": -12,
+            "Scale9Width": 26,
+            "Scale9Height": 24,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 176,
+            "Children": [
+              {
+                "ClipAble": false,
+                "SingleColor": {
+                  "R": 21,
+                  "G": 73,
+                  "B": 123
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 122.8121
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.8412
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 0.998,
+                  "Y": 0.33
+                },
+                "HorizontalEdge": "LeftEdge",
+                "VerticalEdge": "TopEdge",
+                "RightMargin": 1.84,
+                "TopMargin": -0.9021,
+                "BottomMargin": 98.7221,
+                "Tag": 177,
+                "Children": [
+                  {
+                    "FontSize": 24,
+                    "LabelText": "下单金额：",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 9.0332,
+                      "Y": 24.09
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 117,
+                      "G": 120,
+                      "B": 135
+                    },
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0098,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1307,
+                      "Y": 0.4981
+                    },
+                    "LeftMargin": 9.0332,
+                    "RightMargin": 789.1268,
+                    "TopMargin": 12.09,
+                    "BottomMargin": 12.09,
+                    "Tag": 178,
+                    "ActionTag": -560997561,
+                    "Size": {
+                      "X": 120.0,
+                      "Y": 24.0
+                    },
+                    "Name": "betAmounTitleText",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 24,
+                    "LabelText": "￥00000",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 120.4023,
+                      "Y": 24.09
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.1311,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.0915,
+                      "Y": 0.4981
+                    },
+                    "LeftMargin": 120.4023,
+                    "RightMargin": 713.7578,
+                    "TopMargin": 12.09,
+                    "BottomMargin": 12.09,
+                    "Tag": 179,
+                    "ActionTag": -946883799,
+                    "Size": {
+                      "X": 84.0,
+                      "Y": 24.0
+                    },
+                    "Name": "betAmountValueText",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 24,
+                    "LabelText": "盈    利：",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 383.699,
+                      "Y": 24.09
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 117,
+                      "G": 120,
+                      "B": 135
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.4179,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1307,
+                      "Y": 0.4981
+                    },
+                    "LeftMargin": 383.699,
+                    "RightMargin": 414.461,
+                    "TopMargin": 12.09,
+                    "BottomMargin": 12.09,
+                    "Tag": 180,
+                    "ActionTag": -418096094,
+                    "Size": {
+                      "X": 120.0,
+                      "Y": 24.0
+                    },
+                    "Name": "earnTitleText",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 24,
+                    "LabelText": "￥00000",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 470.1897,
+                      "Y": 24.09
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5121,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.0915,
+                      "Y": 0.4981
+                    },
+                    "LeftMargin": 470.1897,
+                    "RightMargin": 363.9703,
+                    "TopMargin": 12.09,
+                    "BottomMargin": 12.09,
+                    "Tag": 181,
+                    "ActionTag": -1007897431,
+                    "Size": {
+                      "X": 84.0,
+                      "Y": 24.0
+                    },
+                    "Name": "earnValueText",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 24,
+                    "LabelText": "下单价位：",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 665.837,
+                      "Y": 24.09
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 117,
+                      "G": 120,
+                      "B": 135
+                    },
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.7252,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1307,
+                      "Y": 0.4981
+                    },
+                    "LeftMargin": 665.837,
+                    "RightMargin": 132.3231,
+                    "TopMargin": 12.09,
+                    "BottomMargin": 12.09,
+                    "Tag": 182,
+                    "ActionTag": 1458240973,
+                    "Size": {
+                      "X": 120.0,
+                      "Y": 24.0
+                    },
+                    "Name": "betPriceTitleText",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 24,
+                    "LabelText": "1.00000100",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 783.2031,
+                      "Y": 24.09
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.853,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1307,
+                      "Y": 0.4981
+                    },
+                    "LeftMargin": 783.2031,
+                    "RightMargin": 14.9569,
+                    "TopMargin": 12.09,
+                    "BottomMargin": 12.09,
+                    "Tag": 183,
+                    "ActionTag": -2062674407,
+                    "Size": {
+                      "X": 120.0,
+                      "Y": 24.0
+                    },
+                    "Name": "betPriceValueText",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 15155514,
+                "Size": {
+                  "X": 918.16,
+                  "Y": 48.18
+                },
+                "Name": "Panel_2_1",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "SingleColor": {
+                  "R": 127,
+                  "G": 127,
+                  "B": 127
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 73.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.5
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 0.998,
+                  "Y": 0.33
+                },
+                "RightMargin": 1.84,
+                "TopMargin": 48.91,
+                "BottomMargin": 48.91,
+                "Tag": 184,
+                "Children": [
+                  {
+                    "FontSize": 24,
+                    "LabelText": "下单时间：",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 9.1946,
+                      "Y": 23.2998
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 117,
+                      "G": 120,
+                      "B": 135
+                    },
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.01,
+                      "Y": 0.4836
+                    },
+                    "PreSize": {
+                      "X": 0.1307,
+                      "Y": 0.4981
+                    },
+                    "LeftMargin": 9.1946,
+                    "RightMargin": 788.9655,
+                    "TopMargin": 12.8801,
+                    "BottomMargin": 11.2998,
+                    "Tag": 185,
+                    "ActionTag": 677413559,
+                    "Size": {
+                      "X": 120.0,
+                      "Y": 24.0
+                    },
+                    "Name": "betTimeTitleText",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 24,
+                    "LabelText": "00:00:00        ",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 123.5636,
+                      "Y": 23.2998
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.1346,
+                      "Y": 0.4836
+                    },
+                    "PreSize": {
+                      "X": 0.2091,
+                      "Y": 0.4981
+                    },
+                    "LeftMargin": 123.5636,
+                    "RightMargin": 602.5964,
+                    "TopMargin": 12.8801,
+                    "BottomMargin": 11.2998,
+                    "Tag": 186,
+                    "ActionTag": 515983347,
+                    "Size": {
+                      "X": 192.0,
+                      "Y": 24.0
+                    },
+                    "Name": "betTimeValueText",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 24,
+                    "LabelText": "收益率：",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 383.8827,
+                      "Y": 23.295
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 117,
+                      "G": 120,
+                      "B": 135
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.4181,
+                      "Y": 0.4835
+                    },
+                    "PreSize": {
+                      "X": 0.1046,
+                      "Y": 0.4981
+                    },
+                    "LeftMargin": 383.8827,
+                    "RightMargin": 438.2773,
+                    "TopMargin": 12.885,
+                    "BottomMargin": 11.295,
+                    "Tag": 187,
+                    "ActionTag": 579065626,
+                    "Size": {
+                      "X": 96.0,
+                      "Y": 24.0
+                    },
+                    "Name": "oddsTitleText",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 24,
+                    "LabelText": "￥00000",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 472.3933,
+                      "Y": 23.295
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5145,
+                      "Y": 0.4835
+                    },
+                    "PreSize": {
+                      "X": 0.0915,
+                      "Y": 0.4981
+                    },
+                    "LeftMargin": 472.3933,
+                    "RightMargin": 361.7667,
+                    "TopMargin": 12.885,
+                    "BottomMargin": 11.295,
+                    "Tag": 188,
+                    "ActionTag": -1903270501,
+                    "Size": {
+                      "X": 84.0,
+                      "Y": 24.0
+                    },
+                    "Name": "oddsValueText",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 24,
+                    "LabelText": "结算价位：",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 667.999,
+                      "Y": 23.2998
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 117,
+                      "G": 120,
+                      "B": 135
+                    },
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.7275,
+                      "Y": 0.4836
+                    },
+                    "PreSize": {
+                      "X": 0.1307,
+                      "Y": 0.4981
+                    },
+                    "LeftMargin": 667.999,
+                    "RightMargin": 130.161,
+                    "TopMargin": 12.8801,
+                    "BottomMargin": 11.2998,
+                    "Tag": 189,
+                    "ActionTag": -578584816,
+                    "Size": {
+                      "X": 120.0,
+                      "Y": 24.0
+                    },
+                    "Name": "settlePriceTitleText",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 24,
+                    "LabelText": "1.00000100",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 783.3651,
+                      "Y": 23.2998
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.8532,
+                      "Y": 0.4836
+                    },
+                    "PreSize": {
+                      "X": 0.1307,
+                      "Y": 0.4981
+                    },
+                    "LeftMargin": 783.3651,
+                    "RightMargin": 14.7949,
+                    "TopMargin": 12.8801,
+                    "BottomMargin": 11.2998,
+                    "Tag": 190,
+                    "ActionTag": -1301393220,
+                    "Size": {
+                      "X": 120.0,
+                      "Y": 24.0
+                    },
+                    "Name": "settlePriceValueText",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -1070321017,
+                "Size": {
+                  "X": 918.16,
+                  "Y": 48.18
+                },
+                "Name": "Panel_2",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "SingleColor": {
+                  "R": 21,
+                  "G": 73,
+                  "B": 123
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": -13,
+                "Scale9OriginY": -12,
+                "Scale9Width": 26,
+                "Scale9Height": 24,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.8308,
+                  "Y": 23.975
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0009,
+                  "Y": 0.1642
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 0.998,
+                  "Y": 0.33
+                },
+                "HorizontalEdge": "LeftEdge",
+                "VerticalEdge": "BottomEdge",
+                "LeftMargin": 0.8308,
+                "RightMargin": 1.0092,
+                "TopMargin": 97.935,
+                "BottomMargin": -0.115,
+                "Tag": 191,
+                "Children": [
+                  {
+                    "FontSize": 24,
+                    "LabelText": "交易品种：",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 662.9817,
+                      "Y": 23.2613
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 117,
+                      "G": 120,
+                      "B": 135
+                    },
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.7221,
+                      "Y": 0.4828
+                    },
+                    "PreSize": {
+                      "X": 0.1307,
+                      "Y": 0.4981
+                    },
+                    "LeftMargin": 662.9817,
+                    "RightMargin": 135.1783,
+                    "TopMargin": 12.9187,
+                    "BottomMargin": 11.2613,
+                    "Tag": 192,
+                    "ActionTag": -1438921476,
+                    "Size": {
+                      "X": 120.0,
+                      "Y": 24.0
+                    },
+                    "Name": "typeTitleText",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 24,
+                    "LabelText": "品种名称占位符",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 778.3508,
+                      "Y": 23.2613
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.8477,
+                      "Y": 0.4828
+                    },
+                    "PreSize": {
+                      "X": 0.183,
+                      "Y": 0.4981
+                    },
+                    "LeftMargin": 778.3508,
+                    "RightMargin": -28.1908,
+                    "TopMargin": 12.9187,
+                    "BottomMargin": 11.2613,
+                    "Tag": 193,
+                    "ActionTag": -466385492,
+                    "Size": {
+                      "X": 168.0,
+                      "Y": 24.0
+                    },
+                    "Name": "typeValueText",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 24,
+                    "LabelText": "方    向：",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 382.6891,
+                      "Y": 24.2586
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 117,
+                      "G": 120,
+                      "B": 135
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.4168,
+                      "Y": 0.5035
+                    },
+                    "PreSize": {
+                      "X": 0.1307,
+                      "Y": 0.4981
+                    },
+                    "LeftMargin": 382.6891,
+                    "RightMargin": 415.471,
+                    "TopMargin": 11.9214,
+                    "BottomMargin": 12.2586,
+                    "Tag": 194,
+                    "ActionTag": -117598520,
+                    "Size": {
+                      "X": 120.0,
+                      "Y": 24.0
+                    },
+                    "Name": "directionTitleText",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 24,
+                    "LabelText": "四个占位",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 472.2097,
+                      "Y": 24.2634
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5143,
+                      "Y": 0.5036
+                    },
+                    "PreSize": {
+                      "X": 0.1046,
+                      "Y": 0.4981
+                    },
+                    "LeftMargin": 472.2097,
+                    "RightMargin": 349.9504,
+                    "TopMargin": 11.9165,
+                    "BottomMargin": 12.2634,
+                    "Tag": 195,
+                    "ActionTag": 267487031,
+                    "Size": {
+                      "X": 96.0,
+                      "Y": 24.0
+                    },
+                    "Name": "directionValueText",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 24,
+                    "LabelText": "结算时间：",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 9.7325,
+                      "Y": 26.2581
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 117,
+                      "G": 120,
+                      "B": 135
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0106,
+                      "Y": 0.545
+                    },
+                    "PreSize": {
+                      "X": 0.1307,
+                      "Y": 0.4981
+                    },
+                    "LeftMargin": 9.7325,
+                    "RightMargin": 788.4276,
+                    "TopMargin": 9.9219,
+                    "BottomMargin": 14.2581,
+                    "Tag": 22,
+                    "ActionTag": 1304265069,
+                    "Size": {
+                      "X": 120.0,
+                      "Y": 24.0
+                    },
+                    "Name": "settleTimeTitleText",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 24,
+                    "LabelText": "00:00:00        ",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 120.1871,
+                      "Y": 26.2629
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.1309,
+                      "Y": 0.5451
+                    },
+                    "PreSize": {
+                      "X": 0.2091,
+                      "Y": 0.4981
+                    },
+                    "LeftMargin": 120.1871,
+                    "RightMargin": 605.9729,
+                    "TopMargin": 9.9171,
+                    "BottomMargin": 14.2629,
+                    "Tag": 23,
+                    "ActionTag": -1480686561,
+                    "Size": {
+                      "X": 192.0,
+                      "Y": 24.0
+                    },
+                    "Name": "settleTimeValueText",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -760451060,
+                "Size": {
+                  "X": 918.16,
+                  "Y": 48.18
+                },
+                "Name": "Panel_2_0",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": -1318299668,
+            "Size": {
+              "X": 920.0,
+              "Y": 146.0
+            },
+            "Name": "betDetailPanel",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 920.0,
+          "Y": 146.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

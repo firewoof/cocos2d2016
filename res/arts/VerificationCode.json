@@ -1,0 +1,622 @@
+{
+  "ID": "222a9110-2c75-45d6-907b-9a3218efe563",
+  "Version": "3.10.0.0",
+  "Name": "VerificationCode",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 20,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "bg_common_bar.png",
+              "Plist": "ui_general.plist"
+            },
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 17,
+            "Scale9OriginY": 16,
+            "Scale9Width": 20,
+            "Scale9Height": 17,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 367,
+            "Children": [
+              {
+                "FontSize": 30,
+                "LabelText": "您需要输入邀请码才能进行操作",
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 295.0,
+                  "Y": 415.3685
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.923
+                },
+                "PreSize": {
+                  "X": 0.7119,
+                  "Y": 0.0667
+                },
+                "LeftMargin": 85.0,
+                "RightMargin": 85.0,
+                "TopMargin": 19.6315,
+                "BottomMargin": 400.3685,
+                "Tag": 368,
+                "ActionTag": -664472181,
+                "Size": {
+                  "X": 420.0,
+                  "Y": 30.0
+                },
+                "Name": "tittleText",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 24,
+                "LabelText": "邀请码是二维码下面的编号",
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 295.0,
+                  "Y": 363.7599
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 143,
+                  "G": 162,
+                  "B": 176
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.8084
+                },
+                "PreSize": {
+                  "X": 0.4881,
+                  "Y": 0.0533
+                },
+                "LeftMargin": 151.0,
+                "RightMargin": 151.0,
+                "TopMargin": 74.2401,
+                "BottomMargin": 351.7599,
+                "Tag": 369,
+                "ActionTag": -828264128,
+                "Size": {
+                  "X": 288.0,
+                  "Y": 24.0
+                },
+                "Name": "tipsText",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 26,
+                "LabelText": "您输入的邀请码错误，请重新输入",
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 295.0,
+                  "Y": 328.1526
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 217,
+                  "G": 73,
+                  "B": 47
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.7292
+                },
+                "PreSize": {
+                  "X": 0.661,
+                  "Y": 0.0578
+                },
+                "LeftMargin": 100.0,
+                "RightMargin": 100.0,
+                "TopMargin": 108.8474,
+                "BottomMargin": 315.1526,
+                "Tag": 370,
+                "ActionTag": 2120718787,
+                "Size": {
+                  "X": 390.0,
+                  "Y": 26.0
+                },
+                "Name": "verifyTipsText",
+                "ctype": "TextObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": -9,
+                "Scale9OriginY": -10,
+                "Scale9Width": 18,
+                "Scale9Height": 20,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 295.0,
+                  "Y": 220.5806
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.4902
+                },
+                "PreSize": {
+                  "X": 0.8644,
+                  "Y": 0.1889
+                },
+                "LeftMargin": 40.0,
+                "RightMargin": 40.0,
+                "TopMargin": 144.4194,
+                "BottomMargin": 220.5806,
+                "Tag": 371,
+                "ActionTag": -1547465872,
+                "Size": {
+                  "X": 510.0,
+                  "Y": 85.0
+                },
+                "Name": "editBoxPanel",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FontSize": 30,
+                "ButtonText": "验证",
+                "TextColor": {},
+                "DisabledFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "btn_common_green_n.png",
+                  "Plist": "ui_general.plist"
+                },
+                "PressedFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "btn_common_green_n.png",
+                  "Plist": "ui_general.plist"
+                },
+                "NormalFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "btn_common_green_n.png",
+                  "Plist": "ui_general.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 2,
+                "Scale9Height": 10,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 297.6277,
+                  "Y": 146.7905
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5045,
+                  "Y": 0.3262
+                },
+                "PreSize": {
+                  "X": 0.8678,
+                  "Y": 0.1889
+                },
+                "LeftMargin": 41.6277,
+                "RightMargin": 36.3723,
+                "TopMargin": 260.7095,
+                "BottomMargin": 104.2905,
+                "Tag": 372,
+                "ActionTag": 1268054128,
+                "Size": {
+                  "X": 512.0,
+                  "Y": 85.0
+                },
+                "Name": "verifyBtn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 315.8449,
+                  "Y": 24.6805
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5353,
+                  "Y": 0.0548
+                },
+                "PreSize": {
+                  "X": 0.4068,
+                  "Y": 0.1111
+                },
+                "LeftMargin": 315.8449,
+                "RightMargin": 34.1551,
+                "TopMargin": 375.3195,
+                "BottomMargin": 24.6805,
+                "Tag": 373,
+                "Children": [
+                  {
+                    "FontSize": 26,
+                    "LabelText": "已有账号，直接登录",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 120.0,
+                      "Y": 25.8249
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 244,
+                      "G": 130,
+                      "B": 31
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5165
+                    },
+                    "PreSize": {
+                      "X": 0.975,
+                      "Y": 0.52
+                    },
+                    "LeftMargin": 3.0,
+                    "RightMargin": 3.0,
+                    "TopMargin": 11.1751,
+                    "BottomMargin": 12.8249,
+                    "Tag": 374,
+                    "Children": [
+                      {
+                        "ClipAble": false,
+                        "ComboBoxIndex": 1,
+                        "SingleColor": {
+                          "R": 244,
+                          "G": 130,
+                          "B": 31
+                        },
+                        "FirstColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "EndColor": {},
+                        "ColorVector": {
+                          "ScaleY": 1.0
+                        },
+                        "Scale9Width": 1,
+                        "Scale9Height": 1,
+                        "TouchEnable": true,
+                        "AnchorPoint": {},
+                        "Position": {
+                          "X": 0.0,
+                          "Y": -1.5
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": -0.0577
+                        },
+                        "PercentWidthEnable": true,
+                        "PercentWidthEnabled": true,
+                        "PreSize": {
+                          "X": 1.0,
+                          "Y": 0.0577
+                        },
+                        "TopMargin": 26.0,
+                        "BottomMargin": -1.5,
+                        "Tag": 375,
+                        "ActionTag": 389184522,
+                        "Size": {
+                          "X": 234.0,
+                          "Y": 1.5
+                        },
+                        "Name": "Panel_4",
+                        "ctype": "PanelObjectData"
+                      }
+                    ],
+                    "ActionTag": -1716465170,
+                    "Size": {
+                      "X": 234.0,
+                      "Y": 26.0
+                    },
+                    "Name": "Text_4",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -869009349,
+                "Size": {
+                  "X": 240.0,
+                  "Y": 50.0
+                },
+                "Name": "hasAccountBtn",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": -184963471,
+            "Size": {
+              "X": 590.0,
+              "Y": 450.0
+            },
+            "Name": "Panel_1",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "PlistSubImage",
+              "Path": "btn_close.png",
+              "Plist": "ui_general.plist"
+            },
+            "PressedFileData": {
+              "Type": "PlistSubImage",
+              "Path": "btn_close.png",
+              "Plist": "ui_general.plist"
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "btn_close.png",
+              "Plist": "ui_general.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 22,
+            "Scale9Height": 30,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 294.7556,
+              "Y": -63.7948
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4996,
+              "Y": -0.1418
+            },
+            "PreSize": {
+              "X": 0.0881,
+              "Y": 0.1156
+            },
+            "LeftMargin": 268.7556,
+            "RightMargin": 269.2444,
+            "TopMargin": 487.7948,
+            "BottomMargin": -89.7948,
+            "Tag": 12,
+            "ActionTag": 1001149791,
+            "Size": {
+              "X": 52.0,
+              "Y": 52.0
+            },
+            "Name": "closeBtn",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 590.0,
+          "Y": 450.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "ui_general.plist",
+        "ui_general.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}
